@@ -1,0 +1,1207 @@
+Codificación clínica con la CIE-10-ES
+
+**BASE DE CONOCIMIENTO**
+
+**Codificación clínica con la CIE-10-ES**
+
+Fundamentos, reglas y ejemplos de codificación de diagnósticos: infecciosas, neoplasias, endocrinas, trastornos mentales y aparato genitourinario.
+
+35 artículos · 7 partes · glosario, preguntas frecuentes y tabla de códigos
+
+# Presentación
+
+Esta base de conocimiento reúne, en artículos independientes, los fundamentos de la codificación sanitaria y su aplicación con la **Clasificación Internacional de Enfermedades, 10.ª revisión, Modificación Clínica (CIE-10-ES)**: estructura de la clasificación, convenciones, principios de codificación y los capítulos de enfermedades infecciosas, neoplasias, endocrinas, trastornos mentales y aparato genitourinario.
+
+### Cómo está organizada
+
+- Cada **artículo** es autónomo: empieza con una ficha (categoría y etiquetas) y un resumen, desarrolla el tema y termina con enlaces **«Véase también»** a artículos relacionados.
+
+- Los artículos están agrupados en **siete partes**, de lo general (fundamentos y estructura) a lo específico (capítulos clínicos).
+
+- Los **casos de ejemplo** muestran el razonamiento paso a paso: qué se codifica primero, qué va como secundario y por qué.
+
+- Los **anexos** incluyen glosario, preguntas frecuentes y una tabla de códigos de referencia rápida.
+
+**Nota sobre los códigos. **Los códigos que aparecen son ejemplos ilustrativos del razonamiento de codificación. Antes de aplicarlos a un caso real conviene confirmarlos en la lista tabular de la edición vigente de la CIE-10-ES.
+
+### Mapa de contenidos
+
+| **Parte** | **Artículos** |
+| --- | --- |
+| **1. Fundamentos de la codificación sanitaria** | 1.1  Qué es la codificación sanitaria 1.2  Utilidad y aplicaciones 1.3  Historia de las clasificaciones de enfermedades 1.4  Organismos y marco normativo |
+| **2. La CIE-10-ES: estructura y reglas generales** | 2.1  Estructura jerárquica de la CIE-10-ES 2.2  Índice alfabético de enfermedades 2.3  Lista tabular y procedimiento de codificación 2.4  Convenciones, notas e instrucciones 2.5  Principios básicos y diagnóstico principal 2.6  Localización anatómica y lateralidad 2.7  eCIEmaps: herramienta y método de búsqueda |
+| **3. Calidad de los datos, ética y protección de datos** | 3.1  Calidad de los datos 3.2  Ética y protección de datos |
+| **4. Enfermedades infecciosas y parasitarias** | 4.1  Infección y triángulo epidemiológico 4.2  Normas generales del capítulo de infecciosas 4.3  Tuberculosis 4.4  Bacteriemia, sepsis, septicemia y SIRS 4.5  VIH y SIDA 4.6  Casos de ejemplo: enfermedades infecciosas |
+| **5. Neoplasias** | 5.1  Fundamentos y definiciones 5.2  Clasificación por comportamiento 5.3  Reglas de codificación de neoplasias 5.4  Tejido linfoide y hematopoyético 5.5  Carcinomas y neoplasias de huesos y cartílago 5.6  Método de codificación paso a paso 5.7  Diagnóstico principal, complicaciones y tratamientos 5.8  Casos de ejemplo: neoplasias |
+| **6. Enfermedades sistémicas, trastornos mentales y otras patologías** | 6.1  Diabetes mellitus 6.2  Enfermedades de la tiroides 6.3  Trastornos mentales 6.4  Aparato genitourinario 6.5  Casos de ejemplo: patologías sistémicas |
+| **7. Anexos** | 7.1  Glosario 7.2  Preguntas frecuentes 7.3  Códigos de referencia rápida |
+
+# Parte 1. Fundamentos de la codificación sanitaria
+
+## 1.1 Qué es la codificación sanitaria
+
+**Categoría: **Fundamentos**   ·   Etiquetas: **codificación, CIE-10-ES, documentación clínica
+
+**#CIE10ES  #Fundamentos  #Codificacion  #DocumentacionClinica**
+
+**Resumen. **La codificación sanitaria asigna códigos alfanuméricos a los diagnósticos y procedimientos recogidos en la documentación clínica.
+
+### Definición
+
+La **codificación sanitaria** consiste en asignar **códigos alfanuméricos** (combinaciones de letras y números) a los diagnósticos y procedimientos que aparecen en la documentación clínica del paciente. No se codifican solo enfermedades, sino también los procedimientos realizados.
+
+Su finalidad principal es **normalizar la información** y convertirla en un **lenguaje universal**. Un paciente que viaja a otro país puede ser atendido a partir de sus códigos aunque el profesional no hable su idioma, porque el código elimina la ambigüedad del lenguaje natural.
+
+### Ejemplo
+
+El código **J45** corresponde a **asma**. El carácter que sigue precisa el diagnóstico: **J45.9** es el asma **sin especificar**, donde el «9» indica que no se concreta la variante. Cuanto más específico es el código, más ajustado puede ser el tratamiento.
+
+### Documentación sanitaria
+
+La documentación sanitaria engloba la **documentación clínica** (todo documento relacionado directamente con un paciente) y la documentación no clínica. Los códigos se asignan a partir de la documentación clínica, que debe revisarse con cuidado. Los datos codificados se incorporan a la historia clínica y permiten, además de la atención individual, el análisis a **nivel poblacional**.
+
+**Véase también: **1.2 Utilidad y aplicaciones  ·  2.1 Estructura jerárquica de la CIE-10-ES  ·  2.5 Principios básicos y diagnóstico principal
+
+## 1.2 Utilidad y aplicaciones
+
+**Categoría: **Fundamentos**   ·   Etiquetas: **utilidad, epidemiología, gestión, auditoría
+
+**#CIE10ES  #Fundamentos  #Utilidad  #Epidemiologia  #Gestion  #Auditoria**
+
+**Resumen. **La codificación sirve a la investigación, la salud pública, la seguridad del paciente, la gestión económica y la auditoría.
+
+| **Ámbito** | **Aportación de la codificación** |
+| --- | --- |
+| **Investigación y epidemiología** | Analizar tendencias, estudiar la **prevalencia** de enfermedades, evaluar la eficacia de tratamientos y **localizar brotes**. |
+| **Salud pública** | Facilita la vigilancia sanitaria **interna** (del propio país) y **externa**. |
+| **Calidad de los datos y continuidad asistencial** | Registro uniforme de diagnósticos y procedimientos; si el paciente cambia de hospital, los profesionales entienden la misma información. |
+| **Seguridad del paciente** | Diagnósticos más precisos y rápidos, tratamientos adecuados y menos errores. |
+| **Gestión, facturación y control de costes** | Evita pérdidas por no facturar, permite comparar qué procedimiento es más eficiente y planificar recursos (personal, equipamiento, presupuesto). |
+| **Auditoría** | Control **interno o externo** (habitualmente cada 3 a 6 meses) que evalúa la precisión de la documentación e identifica errores para mejorar los procesos. |
+| **Comparación y buenas prácticas** | Permite comparar hospitales, comunidades y países para identificar qué prácticas funcionan mejor. |
+| **Políticas sanitarias** | Estudiar **incidencia** y **prevalencia**, factores de riesgo y el impacto de las intervenciones sanitarias. |
+
+**Ejemplo ilustrativo. **Si un paciente tiene neumonía y además enfermedad pulmonar obstructiva crónica (EPOC) y solo se codifica la neumonía, se pierde información clave: no es lo mismo tratar una neumonía aislada que hacerlo en un paciente con obstrucción crónica. La codificación debe reflejar todo el cuadro clínico.
+
+**Véase también: **1.1 Qué es la codificación sanitaria  ·  3.1 Calidad de los datos
+
+## 1.3 Historia de las clasificaciones de enfermedades
+
+**Categoría: **Fundamentos**   ·   Etiquetas: **historia, OMS, CIE-10, CIE-11
+
+**#CIE10ES  #Fundamentos  #Historia  #OMS  #CIE10  #CIE11**
+
+**Resumen. **Las clasificaciones de enfermedades evolucionaron desde registros basados en creencias hasta sistemas internacionales mantenidos por la OMS.
+
+- **Edad antigua y Edad Media:** los registros médicos se basaban en creencias religiosas y filosóficas; no existían datos estandarizados.
+
+- **Siglo XVIII (Francia):** se empieza a clasificar las enfermedades a partir de los **síntomas**. Limitación: personas con síntomas parecidos pueden tener enfermedades distintas.
+
+- **Revisiones posteriores:** las sucesivas ediciones incorporan procedimientos médicos, útiles para la facturación y la gestión hospitalaria, y reflejan los avances de la medicina.
+
+- **CIE-10 (OMS):** aprobada a comienzos de la década de 1990. Es la base de la clasificación que se usa en España. Incluye más de **14.000 categorías** y su estructura numérica permite una codificación flexible según el número de dígitos.
+
+- **CIE-10-ES:** adaptación española de la CIE-10, elaborada por el Ministerio de Sanidad. Es la versión de uso oficial en hospitales y centros de salud españoles.
+
+- **CIE-11 (OMS, 2019):** versión más moderna, mejor integrada con los sistemas informáticos y más precisa. En España se sigue utilizando la CIE-10-ES; entre los motivos, los sistemas informáticos de las comunidades autónomas y de la sanidad pública y privada no están plenamente conectados.
+
+### Por qué se actualizan las clasificaciones
+
+Términos antiguos como «fiebre pútrida» o «consunción» ya no se usan o han cambiado de significado. Las clasificaciones se revisan para mantener la **validez y la comparabilidad** de los datos a lo largo del tiempo.
+
+**Véase también: **1.4 Organismos y marco normativo  ·  2.1 Estructura jerárquica de la CIE-10-ES
+
+## 1.4 Organismos y marco normativo
+
+**Categoría: **Fundamentos**   ·   Etiquetas: **OMS, Ministerio de Sanidad, normativa, RGPD
+
+**#CIE10ES  #Fundamentos  #OMS  #MinisterioDeSanidad  #Normativa  #RGPD**
+
+**Resumen. **La codificación se apoya en una cadena de organismos: la OMS define la clasificación, el Ministerio de Sanidad la adapta, las comunidades autónomas la aplican y diversas instituciones la utilizan y controlan.
+
+| **Organismo o norma** | **Función** |
+| --- | --- |
+| **OMS (Organización Mundial de la Salud)** | Desarrolla y actualiza la **Clasificación Internacional de Enfermedades** y establece las reglas generales de asignación de códigos. |
+| **Ministerio de Sanidad** | Adapta la clasificación al contexto nacional (CIE-10-ES) y publica manuales y guías de codificación. La adaptación es necesaria porque la realidad sanitaria cambia entre países: un brote de tuberculosis en un país no implica el mismo protocolo en otro. |
+| **Comunidades autónomas** | El sistema sanitario es descentralizado: cada comunidad tiene competencias propias a partir de lo que establece el Ministerio. |
+| **Instituto Nacional de Estadística (INE)** | Emplea los datos codificados para las estadísticas de salud pública. |
+| **Aseguradoras e instituciones de auditoría** | Controlan la calidad de la codificación y la facturación. |
+| **RGPD y Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales** | Garantizan la protección de los datos personales de los pacientes y establecen sanciones. |
+
+### Unidad Técnica de la CIE-10-ES
+
+Es la unidad técnica de codificación del Sistema Nacional de Salud. Sus funciones principales son:
+
+- Revisar y validar la **traducción** de la clasificación y estudiar la incorporación de nuevas versiones.
+
+- Revisar y validar los **materiales de apoyo** (tablas de referencia y de validación).
+
+- Elaborar la **normativa y los manuales** de codificación y adaptarlos al contexto estatal.
+
+- Resolver **dudas y consultas** de codificación, mantener comunicación continua con los equipos y participar en **formación y auditorías**.
+
+Está formada por un **coordinador**, un **representante de cada comunidad autónoma**, un representante de la **Sociedad Española de Documentación Médica**, un representante del **Comité Editorial de la CIE** y asesores designados por el Ministerio de Sanidad.
+
+**Véase también: **3.2 Ética y protección de datos  ·  1.3 Historia de las clasificaciones de enfermedades
+
+# Parte 2. La CIE-10-ES: estructura y reglas generales
+
+## 2.1 Estructura jerárquica de la CIE-10-ES
+
+**Categoría: **CIE-10-ES**   ·   Etiquetas: **jerarquía, capítulos, categorías, especificidad
+
+**#CIE10ES  #Jerarquia  #Capitulos  #Categorias  #Especificidad**
+
+**Resumen. **La CIE-10-ES organiza las enfermedades de lo general a lo específico: capítulo, bloque, categoría, subcategoría y código final de 3 a 7 caracteres.
+
+| **Nivel** | **Descripción** | **Ejemplo** |
+| --- | --- | --- |
+| **Capítulo** | Grupo amplio de enfermedades o condiciones de salud. Saber a qué capítulo corresponde cada tipo de enfermedad evita buscar en toda la clasificación. | Cap. 1: enfermedades infecciosas y parasitarias (A00–B99) |
+| **Bloque o sección** | Reúne patologías con características comunes dentro de un capítulo. | Dentro del capítulo respiratorio: bloque de neumonía, bloque de EPOC |
+| **Categoría** | **Una letra seguida de dos números** (3 caracteres). Identifica grandes grupos diagnósticos. | J45 (asma); A04 (infecciones intestinales bacterianas) |
+| **Subcategoría** | Se añade un **cuarto carácter** que aporta precisión sobre la variante clínica, la localización anatómica o la gravedad. | J45.9 (asma no especificado) |
+| **Quinto carácter (opcional)** | Captura detalles adicionales: tipo clínico, complicación o manifestación específica. Útil en enfermedades crónicas o complejas. | Enfermedad renal crónica: permite indicar la fase (1, 2, 3, 4…) |
+| **Código final** | De **3 a 7 caracteres**. No siempre se desarrolla hasta el último nivel. | — |
+
+### Códigos alfanuméricos
+
+La letra inicial identifica el capítulo o grupo al que pertenece el diagnóstico; los números posteriores concretan progresivamente la categoría y la subcategoría.
+
+### Marcador de posición «X»
+
+Cuando un código necesita un séptimo carácter y faltan posiciones intermedias, esas posiciones se rellenan con una **«X»**. Un código de siete caracteres al que le falta el séptimo se considera **inválido**.
+
+### Capítulos
+
+La CIE-10-ES tiene **22 capítulos**; el último recoge los «Códigos para propósitos especiales» (U00–U85). Algunas descripciones hablan de 21 capítulos porque no cuentan este último. Los capítulos que más se usan en esta base de conocimiento son:
+
+| **Capítulo** | **Contenido** | **Rango** |
+| --- | --- | --- |
+| **1** | Enfermedades infecciosas y parasitarias | A00–B99 |
+| **2** | Neoplasias | C00–D49 |
+| **4** | Enfermedades endocrinas, nutricionales y metabólicas | E00–E89 |
+| **5** | Trastornos mentales y del comportamiento | F01–F99 |
+| **6** | Enfermedades del sistema nervioso | G00–G99 |
+| **14** | Enfermedades del aparato genitourinario | N00–N99 |
+| **18** | Síntomas, signos y hallazgos anormales | R00–R99 |
+| **19** | Lesiones, envenenamientos y otras causas externas (códigos T) | S00–T88 |
+| **21** | Factores que influyen en el estado de salud (códigos Z) | Z00–Z99 |
+
+### Ventajas de la estructura jerárquica
+
+Mayor precisión, mejor gestión clínica y administrativa, comparación de datos entre instituciones y países, y menor pérdida de información relevante, lo que redunda en seguridad del paciente y mejor atención.
+
+**Idea clave. **La estructura permite pasar de un concepto general a un diagnóstico específico. Se debe llegar al máximo nivel de detalle que permita la documentación, sin suponer información que no consta.
+
+**Véase también: **2.2 Índice alfabético de enfermedades  ·  2.3 Lista tabular y procedimiento de codificación  ·  2.7 eCIEmaps: herramienta y método de búsqueda
+
+## 2.2 Índice alfabético de enfermedades
+
+**Categoría: **CIE-10-ES**   ·   Etiquetas: **índice alfabético, término principal, modificadores
+
+**#CIE10ES  #IndiceAlfabetico  #TerminoPrincipal  #Modificadores**
+
+**Resumen. **El índice alfabético es la herramienta de búsqueda: permite llegar a un código a partir de un término médico, mediante términos principales y modificadores.
+
+Incluye también la tabla de neoplasias y otras tablas. Sus elementos son:
+
+- **Término principal:** aparece en **negrita** y es la palabra clave para codificar un diagnóstico. Puede ser el nombre de la patología (apendicitis), el motivo de consulta o síntoma (dolor, deficiencia) o un **epónimo**, es decir, un nombre propio asociado a una enfermedad o estructura (trompa de Falopio).
+
+- **Modificadores no esenciales:** van **entre paréntesis** detrás del término principal. Aportan información adicional y no cambian el código.
+
+- **Modificadores esenciales:** aparecen sangrados **debajo del término principal**, en orden alfabético, y **condicionan la selección del código**. Van seguidos del código asignado.
+
+**Ejemplo. **En «otitis» (término principal), «(aguda)» es un modificador no esencial; «con efusión», «adhesiva», «crónica» o «externa» son modificadores esenciales.
+
+**Véase también: **2.3 Lista tabular y procedimiento de codificación  ·  2.4 Convenciones, notas e instrucciones
+
+## 2.3 Lista tabular y procedimiento de codificación
+
+**Categoría: **CIE-10-ES**   ·   Etiquetas: **lista tabular, código por defecto, procedimiento
+
+**#CIE10ES  #ListaTabular  #CodigoPorDefecto  #Procedimiento**
+
+**Resumen. **La lista tabular es donde se verifica y completa el código.
+
+La lista tabular está organizada en capítulos (sus títulos aparecen en mayúsculas y llevan entre paréntesis el rango de categorías), secciones, categorías, subcategorías y códigos de 3 a 7 caracteres.
+
+El código que da el índice se denomina **código por defecto**: representa la afección asociada con mayor frecuencia al término. Hay que comprobar en la lista tabular si existe un código **más específico** y respetar las notas.
+
+### Procedimiento de codificación de un diagnóstico
+
+- Identificar el diagnóstico o concepto clínico documentado.
+
+- Localizar el **término principal** en el índice alfabético.
+
+- Seguir los modificadores esenciales que correspondan al diagnóstico.
+
+- Tomar el código resultante (código por defecto).
+
+- Verificarlo en la lista tabular y comprobar si existe un código más específico.
+
+- Leer las notas, inclusiones y exclusiones antes de asignarlo.
+
+**Véase también: **2.2 Índice alfabético de enfermedades  ·  2.4 Convenciones, notas e instrucciones  ·  2.7 eCIEmaps: herramienta y método de búsqueda
+
+## 2.4 Convenciones, notas e instrucciones
+
+**Categoría: **CIE-10-ES**   ·   Etiquetas: **Excluye1, Excluye2, notas, convenciones
+
+**#CIE10ES  #Excluye1  #Excluye2  #Notas  #Convenciones**
+
+**Resumen. **La clasificación utiliza símbolos e instrucciones que indican cómo interpretar y combinar los códigos.
+
+| **Convención o instrucción** | **Significado** |
+| --- | --- |
+| **Paréntesis ( )** | Modificadores no esenciales o texto complementario. |
+| **Corchetes [ ]** | Sinónimos, frases alternativas o explicativas. |
+| **Dos puntos «:»** | En la lista tabular, tras un término que necesita uno o más modificadores para completarse. |
+| **Guion «-»** | Indica que faltan caracteres para completar el código. |
+| **Véase** | Hay que dirigirse a otro término principal más específico. |
+| **Véase además** | Existe otro término principal que también puede consultarse y que puede aportar información específica. |
+| **Véase categoría / subcategoría** | Remite directamente a una categoría o subcategoría de la lista tabular. |
+| **Nota** | Proporciona información adicional sobre el contenido del término. |
+| **Incluye** | Indica afecciones que se clasifican en ese código. |
+| **Excluye1** | Las dos afecciones **no pueden codificarse a la vez**: se selecciona un código u otro. |
+| **Excluye2** | Significa «no incluido aquí»: hay que buscar otro código, y **ambos pueden asignarse** si el paciente presenta las dos condiciones. |
+| **Codifique primero** | Establece el **orden de secuencia** de los códigos; en algunos casos es obligatorio. |
+| **Codifique además** | Pueden necesitarse **dos códigos** para describir completamente la afección. |
+| **Utilice código adicional** | Similar al anterior, pero **indica el orden**: el código adicional va tras el diagnóstico principal. Aparece en afecciones con varias etiologías posibles o con etiología conocida. |
+
+### Inclusiones y exclusiones
+
+Las **inclusiones** indican los diagnósticos o conceptos comprendidos dentro de una categoría y sirven para confirmar que un diagnóstico concreto puede clasificarse en ella. Las **exclusiones** señalan situaciones que **no deben codificarse** en esa categoría aunque parezcan relacionadas, y remiten a otra parte de la clasificación. Son especialmente importantes cuando existen diagnósticos similares.
+
+Un ejemplo habitual es la categoría J45 (asma), que combina «Incluye», «Utilice código adicional», «Excluye1» y «Excluye2».
+
+**Véase también: **2.3 Lista tabular y procedimiento de codificación  ·  2.5 Principios básicos y diagnóstico principal
+
+## 2.5 Principios básicos y diagnóstico principal
+
+**Categoría: **CIE-10-ES**   ·   Etiquetas: **diagnóstico principal, diagnóstico secundario, comorbilidad
+
+**#CIE10ES  #DiagnosticoPrincipal  #DiagnosticoSecundario  #Comorbilidad**
+
+**Resumen. **La codificación exige exactitud, uso riguroso de la fuente y secuencia correcta: primero el diagnóstico principal, después los secundarios y los procedimientos.
+
+### Principios básicos
+
+- **Exactitud y especificidad:** el código debe representar fielmente el diagnóstico o procedimiento documentado, llegando al nivel de subcategoría más específico disponible.
+
+- **Uso riguroso de la fuente:** se codifica a partir del **informe médico oficial**, nunca por interpretaciones subjetivas ni suposiciones.
+
+- **Ante la duda:** si el diagnóstico es ambiguo o falta información, no se asigna un código genérico inventado; se solicita aclaración al médico y se revisan las pruebas realizadas.
+
+- **Secuencia correcta:** primero el diagnóstico principal, después los secundarios, y se registran también los procedimientos.
+
+### Conceptos clave
+
+| **Concepto** | **Definición y ejemplo** |
+| --- | --- |
+| **Diagnóstico principal** | Razón por la que el paciente recibe atención médica o ingresa. **Ejemplo:** un paciente con una enfermedad crónica que ingresa por gripe tiene como principal la gripe, no la enfermedad crónica. |
+| **Diagnósticos secundarios** | Condiciones adicionales que influyen en el tratamiento, la estancia hospitalaria o el pronóstico: comorbilidades, complicaciones y factores de riesgo. Pueden estar presentes al ingreso o aparecer durante la estancia. Se secuencian **después del principal**. |
+| **Comorbilidad** | Otra enfermedad que el paciente presenta al mismo tiempo que la principal (por ejemplo, diabetes e hipertensión). |
+
+### Reglas para varios diagnósticos
+
+- Registrar todas las condiciones y factores que afectan al tratamiento.
+
+- **Evitar duplicidades:** no repetir código para la misma condición.
+
+- **Codificar las complicaciones** por separado (una infección posoperatoria requiere un código adicional al del procedimiento quirúrgico).
+
+- Excluir los diagnósticos que no inciden en el episodio actual.
+
+### Casos de ejemplo
+
+| **Caso** | **Resolución** |
+| --- | --- |
+| Mujer de 75 años que ingresa por insuficiencia cardíaca descompensada; en su historial constan diabetes tipo 2, osteoporosis e hipertensión. | **Principal:** insuficiencia cardíaca (motivo del ingreso). **Secundarios:** el resto de enfermedades (por ejemplo, la diabetes tipo 2 en la categoría E11). Se evita duplicar códigos y se obtiene una visión integral. |
+| Paciente joven que acude a urgencias; el informe indica un problema intestinal sin especificar causa ni localización. | El término es ambiguo y no corresponde a una categoría concreta. No se puede asignar un código fiable: hay que **solicitar aclaración al médico** y revisar las pruebas. De ahí la importancia de la comunicación entre médicos y codificadores. |
+
+**Véase también: **2.4 Convenciones, notas e instrucciones  ·  2.6 Localización anatómica y lateralidad  ·  3.1 Calidad de los datos
+
+## 2.6 Localización anatómica y lateralidad
+
+**Categoría: **CIE-10-ES**   ·   Etiquetas: **localización anatómica, lateralidad, especificidad
+
+**#CIE10ES  #LocalizacionAnatomica  #Lateralidad  #Especificidad**
+
+**Resumen. **Muchos diagnósticos cambian de código según el órgano afectado y el lado del cuerpo.
+
+### Localización anatómica
+
+Es el lugar concreto del organismo donde se encuentra la enfermedad o lesión. En las neoplasias es determinante: los tumores malignos se clasifican en gran medida por el sitio en que se localizan, de modo que saber que existe un carcinoma no basta para elegir el código. Conviene comprobar:
+
+- El órgano afectado.
+
+- El tejido o estructura anatómica.
+
+- La región concreta y, cuando la clasificación lo diferencia, la parte específica del órgano.
+
+- La localización exacta de la lesión.
+
+### Lateralidad
+
+Indica si la enfermedad o lesión está en el lado derecho o izquierdo. Cuando la clasificación contempla lateralidad para un diagnóstico, las opciones son:
+
+- **Derecha.**
+
+- **Izquierda.**
+
+- **No especificada**, cuando la documentación no permite determinar el lado.
+
+La lateralidad se obtiene de la **documentación clínica**. No se debe suponer qué lado está afectado si el diagnóstico no lo especifica.
+
+### Afectación bilateral
+
+Si el código contempla lateralidad, cada lado se codifica por separado. Por ejemplo, una mastopatía fibroquística bilateral se codifica **N60.11** (mama derecha) y **N60.12** (mama izquierda). **N60.19** corresponde a «mama no especificada» y no equivale a bilateral.
+
+### Cuando falta información
+
+Si la documentación solo identifica una región general, no se selecciona arbitrariamente una subcategoría más específica. La codificación refleja la información clínica disponible.
+
+**Regla fundamental. **Se codifica con el máximo nivel de especificidad que permita la documentación clínica, pero nunca se añade información que no esté documentada.
+
+**Véase también: **5.5 Carcinomas y neoplasias de huesos y cartílago  ·  2.7 eCIEmaps: herramienta y método de búsqueda
+
+## 2.7 eCIEmaps: herramienta y método de búsqueda
+
+**Categoría: **Herramientas**   ·   Etiquetas: **eCIEmaps, búsqueda, navegación jerárquica
+
+**#CIE10ES  #Herramientas  #ECIEmaps  #Busqueda  #NavegacionJerarquica**
+
+**Resumen. **eCIEmaps es una herramienta de consulta de la CIE-10-ES que combina un buscador por términos con la navegación jerárquica por categorías.
+
+### Qué permite hacer
+
+Localizar y consultar los códigos de diagnósticos y procedimientos mediante un buscador y una navegación por la estructura de la clasificación. El buscador resulta útil cuando se conoce el diagnóstico pero no el código; las listas jerárquicas permiten comprobar y profundizar. Ambas se usan de forma conjunta.
+
+### Método de búsqueda
+
+- Identificar el **diagnóstico clínico** que aparece en la documentación.
+
+- Introducir el **término principal** en el buscador.
+
+- Revisar los resultados y seleccionar la categoría que corresponda al concepto clínico.
+
+- Acceder a las **subcategorías y códigos** disponibles.
+
+- Comprobar la localización anatómica, la lateralidad y otras características necesarias.
+
+- Revisar las **notas, inclusiones y exclusiones** del código.
+
+- Seleccionar el código que represente con mayor precisión el diagnóstico documentado.
+
+**Precaución. **No se debe escoger automáticamente el primer resultado. El término de la documentación puede no coincidir con la denominación de la clasificación, de modo que cada resultado debe contrastarse con el diagnóstico documentado.
+
+### Ejemplos de uso
+
+- **Otitis:** al introducir un término general aparecen varios resultados (entre ellos **H66.90**). Buscar no equivale a seleccionar: hay que leer los resultados y elegir el que corresponde.
+
+- **Neoplasias:** además de identificar el tumor, se comprueban el tipo, el comportamiento, la localización, el órgano afectado, la lateralidad y las notas de inclusión y exclusión.
+
+- **VIH:** la navegación por infecciosas permite localizar **B20** y comprobar las notas sobre manifestaciones asociadas.
+
+**Véase también: **2.3 Lista tabular y procedimiento de codificación  ·  2.6 Localización anatómica y lateralidad  ·  2.4 Convenciones, notas e instrucciones
+
+# Parte 3. Calidad de los datos, ética y protección de datos
+
+## 3.1 Calidad de los datos
+
+**Categoría: **Calidad y gestión**   ·   Etiquetas: **calidad de datos, errores, auditoría
+
+**#CIE10ES  #CalidadYGestion  #CalidadDeDatos  #Errores  #Auditoria**
+
+**Resumen. **La calidad de la codificación depende de la documentación, la comunicación entre profesionales, la formación y los controles.
+
+| **Reto** | **Solución** |
+| --- | --- |
+| **Documentación clínica poco específica o incompleta** | Informes detallados y específicos. |
+| **Uso de sinónimos o abreviaturas que generan confusión** | Comunicación fluida entre médico y codificador (por ejemplo, un canal de mensajería interno para resolver dudas). |
+| **Dificultad para distinguir diagnóstico principal de secundario** | Formación y capacitación continuas; consulta de glosarios de términos. |
+| **Protocolos o códigos desactualizados** | Actualización continua y formación online sobre los cambios de la clasificación. |
+| **Prisas y sobrecarga de trabajo** | Herramientas de **codificación asistida** y validación automática. La inteligencia artificial ayuda, pero sus resultados deben revisarse. |
+| **Errores no detectados** | **Auditorías internas** periódicas para detectar errores y mejorar procesos. |
+
+### Consecuencias de los errores de codificación
+
+- Afectan al tratamiento y al seguimiento clínico (seguridad del paciente).
+
+- Pueden dar lugar a análisis epidemiológicos falsos y a decisiones erróneas en políticas sanitarias.
+
+- Pueden invalidar resultados de investigación.
+
+- Generan pérdidas económicas y conflictos de facturación y reembolso.
+
+- Distorsionan la planificación de personal, equipamiento y presupuesto.
+
+**Véase también: **1.2 Utilidad y aplicaciones  ·  2.5 Principios básicos y diagnóstico principal  ·  3.2 Ética y protección de datos
+
+## 3.2 Ética y protección de datos
+
+**Categoría: **Calidad y gestión**   ·   Etiquetas: **confidencialidad, RGPD, protección de datos
+
+**#CIE10ES  #CalidadYGestion  #Confidencialidad  #RGPD  #ProteccionDeDatos**
+
+**Resumen. **Los datos de salud son especialmente sensibles.
+
+- **Confidencialidad e intimidad:** los datos de salud no pueden divulgarse sin autorización, ya que podrían causar discriminación (por ejemplo, laboral).
+
+- **Acceso limitado:** solo el personal autorizado accede a los datos, con credencial personal.
+
+- **Integridad profesional:** quien accede a la información no debe utilizarla ni venderla de forma indebida.
+
+- **Normativa:** el **RGPD** (reglamento europeo que exige medidas técnicas y organizativas), la **Ley Orgánica de Protección de Datos y Garantía de los Derechos Digitales** (complementa al anterior en España y establece sanciones) y las normas de seguridad en sistemas sanitarios (autenticación, cifrado, controles de acceso).
+
+### Buenas prácticas
+
+- Limitación de acceso.
+
+- **Anonimización o seudonimización** de los datos.
+
+- Formación en protección de datos.
+
+- **Registro de accesos** (quién, cuándo y por qué).
+
+- Auditorías periódicas internas y externas.
+
+- Pruebas de vulnerabilidad y autenticación en dos pasos.
+
+**Caso ilustrativo. **Un codificador consulta la historia clínica de un paciente fuera de su horario de trabajo por curiosidad personal. El sistema detecta un acceso no autorizado y se abre una auditoría interna. Consecuencias posibles: sanción profesional, inhabilitación, daño reputacional y responsabilidad legal por vulnerar la normativa de protección de datos.
+
+**Véase también: **1.4 Organismos y marco normativo  ·  3.1 Calidad de los datos
+
+# Parte 4. Enfermedades infecciosas y parasitarias
+
+## 4.1 Infección y triángulo epidemiológico
+
+**Categoría: **Infecciosas (cap. 1)**   ·   Etiquetas: **infección, agente etiológico, huésped, ambiente
+
+**#CIE10ES  #Infecciosas  #Infeccion  #AgenteEtiologico  #Huesped  #Ambiente**
+
+**Resumen. **Una infección es la invasión del organismo por un microorganismo.
+
+El capítulo 1 es de los más habituales y sencillos de usar, porque la mayoría de estas enfermedades son cotidianas. La parte más delicada es distinguir con precisión **bacteriemia, sepsis y septicemia**.
+
+Una **infección** es la invasión del organismo por un microorganismo (bacteria, virus, hongo…). Intervienen tres factores relacionados de forma dinámica; sin uno de ellos la enfermedad puede no aparecer:
+
+| **Factor** | **Descripción** |
+| --- | --- |
+| **Agente etiológico (patógeno)** | El microorganismo que produce la infección. También se denomina agente causal. |
+| **Huésped** | La persona. Cada individuo tiene un grado de susceptibilidad distinto, según su sistema inmunitario. |
+| **Ambiente** | El entorno que rodea al huésped y al agente (por ejemplo, el clima). |
+
+**Véase también: **4.2 Normas generales del capítulo de infecciosas  ·  4.3 Tuberculosis
+
+## 4.2 Normas generales del capítulo de infecciosas
+
+**Categoría: **Infecciosas (cap. 1)**   ·   Etiquetas: **códigos complementarios, resistencia a antimicrobianos, secuelas
+
+**#CIE10ES  #Infecciosas  #CodigosComplementarios  #ResistenciaAAntimicrobianos  #Secuelas**
+
+**Resumen. **En general se codifican dos datos: dónde se produce la infección y qué microorganismo la causa.
+
+- **Dos códigos complementarios:** se codifica **dónde se produce la infección** y **qué la produce** (el microorganismo). Por ejemplo, una tuberculosis miliar va siempre acompañada del código del microorganismo.
+
+- **Códigos combinados:** algunos organismos muy frecuentes en hospitales (como *Staphylococcus aureus*) tienen códigos que ya lo integran.
+
+- **Resistencia a antimicrobianos:** se codifica con la categoría **Z16**. Algunas cepas muy peligrosas («superbacterias») son resistentes a muchos fármacos.
+
+- **Secuelas:** se da prioridad a la secuela cuando su impacto es permanente y clínicamente relevante. Los códigos de secuelas se usan solo para efectos permanentes o tardíos de una enfermedad ya resuelta, no para infecciones crónicas activas.
+
+- **Embarazo, parto y puerperio:** se codifica primero el código obstétrico (**O98**) y después la infección.
+
+- **Periodo perinatal:** las infecciones propias de este periodo están en **P35–P39**.
+
+- **Portadores:** se codifica el agente portado.
+
+### Ejemplos de combinación de códigos
+
+| **Situación** | **Códigos** |
+| --- | --- |
+| **Infección urinaria por *****E. coli*** | N39.0 + B96.20 |
+| ***S. aureus***** resistente a meticilina** | A49.02 |
+| ***C. difficile***** resistente a vancomicina** | A04.72 + Z16.22 |
+| **Endocarditis por *****Enterococcus faecalis*** | I33.0 + B95.2 |
+
+### Microorganismos de ejemplo
+
+*Staphylococcus aureus* (vía respiratoria y piel) y *Clostridioides difficile* (tracto intestinal; su proliferación rompe el equilibrio de la flora, motivo por el que se emplean trasplantes de microbiota fecal).
+
+**Véase también: **4.1 Infección y triángulo epidemiológico  ·  4.4 Bacteriemia, sepsis, septicemia y SIRS
+
+## 4.3 Tuberculosis
+
+**Categoría: **Infecciosas (cap. 1)**   ·   Etiquetas: **tuberculosis, A15–A19, B90, R76
+
+**#CIE10ES  #Infecciosas  #Tuberculosis  #A15A19  #B90  #R76**
+
+**Resumen. **La tuberculosis (A15–A19) se clasifica por órgano afectado.
+
+Enfermedad causada por *Mycobacterium tuberculosis*. Afecta principalmente a los pulmones, pero puede afectar a otros órganos. Se transmite por vía aérea mediante gotitas al hablar o toser.
+
+- **Clasificación por órgano afectado:** tuberculosis respiratoria, del sistema nervioso o de otros órganos. Ejemplos: la **pleuritis tuberculosa** se busca por el aparato respiratorio; la **neuritis tuberculosa** afecta al sistema nervioso (A17.83).
+
+- **Secuelas:** deben codificarse. Se registra primero la secuela o condición residual y después **B90** (secuelas de tuberculosis). Si el paciente acude por la secuela, esa se codifica en primer lugar; si no, la tuberculosis se codifica como cualquier otra enfermedad.
+
+- **Pruebas diagnósticas:** se codifican en la categoría **R76**. Las dos más importantes son la **prueba cutánea de la tuberculina (Mantoux)** y la prueba de **liberación de interferón gamma (Quantiferon)**. Las pruebas se registran **siempre como diagnóstico secundario**.
+
+**Véase también: **4.2 Normas generales del capítulo de infecciosas  ·  4.6 Casos de ejemplo: enfermedades infecciosas
+
+## 4.4 Bacteriemia, sepsis, septicemia y SIRS
+
+**Categoría: **Infecciosas (cap. 1)**   ·   Etiquetas: **bacteriemia, sepsis, septicemia, shock séptico, SIRS
+
+**#CIE10ES  #Infecciosas  #Bacteriemia  #Sepsis  #Septicemia  #ShockSeptico  #SIRS**
+
+**Resumen. **Bacteriemia, sepsis y septicemia son entidades distintas con códigos distintos.
+
+| **Término** | **Qué es** | **Cómo se codifica** |
+| --- | --- | --- |
+| **Bacteriemia** | Presencia de bacterias en la sangre (se comprueba con un hemocultivo). | **R78.81**. Como diagnóstico secundario se añade el microorganismo (por ejemplo, *E. coli*). |
+| **Sepsis** | Respuesta inflamatoria sistémica causada por una infección (intervienen el microorganismo y las toxinas que libera). Suele establecerse con al menos dos criterios: frecuencia cardíaca > 90 lpm, tensión arterial sistólica ≤ 100 mmHg, frecuencia respiratoria ≥ 22 rpm o leucocitos > 12 000 o < 4 000. | Primero la **infección subyacente** y después el código de sepsis. La **sepsis grave** se codifica en **R65.2-**: **R65.20** sin shock séptico y **R65.21** con shock séptico. |
+| **Septicemia** | Infección generalizada por todo el cuerpo, con gran cantidad de bacterias en el torrente sanguíneo. Hoy se considera incluida bajo el término sepsis. | Códigos propios en **A41.-**: **A41.9** si no se identifica el agente; A41.01 (*S. aureus*), A41.2 (*Klebsiella pneumoniae*), A41.51 (*E. coli*). |
+| **Shock séptico** | Forma avanzada de sepsis con hipotensión persistente y disfunción orgánica. | **R65.21**, codificando primero la causa subyacente. No confundir con el **shock tóxico (A48.3)**, que es otra entidad. |
+
+### Progresión
+
+Primero puede haber una bacteriemia, después una sepsis y finalmente una septicemia si no se trata con antibióticos; en ocasiones se pasa directamente de una fase a otra.
+
+**Precisión terminológica. **Las palabras exactas del diagnóstico determinan el código. «Sepsis grave» sin mención de shock corresponde a R65.20; el término «sepsis» por sí solo no basta para elegir el código más específico.
+
+### Síndrome de respuesta inflamatoria sistémica (SIRS)
+
+Respuesta inflamatoria generalizada que afecta a varios sistemas y puede deberse a una infección o a causas no infecciosas. En el **SIRS no infeccioso** se identifica primero la **causa subyacente** y después se añade el código **R65.1-** para indicar la respuesta inflamatoria.
+
+**Véase también: **4.2 Normas generales del capítulo de infecciosas  ·  4.6 Casos de ejemplo: enfermedades infecciosas  ·  4.5 VIH y SIDA
+
+## 4.5 VIH y SIDA
+
+**Categoría: **Infecciosas (cap. 1)**   ·   Etiquetas: **VIH, SIDA, B20, Z21
+
+**#CIE10ES  #Infecciosas  #VIH  #SIDA  #B20  #Z21**
+
+**Resumen. **La enfermedad por VIH se codifica con B20 cuando está confirmada y se manifiesta con enfermedades asociadas; la infección asintomática se codifica con Z21.
+
+- El **VIH** es un retrovirus que ataca y destruye los linfocitos CD4, una de las primeras líneas de defensa del organismo. Hoy es una enfermedad crónica, aunque sigue muy estigmatizada.
+
+- El **SIDA** (síndrome) aparece cuando el VIH no se trata: hay una destrucción casi completa del sistema inmunitario, lo que permite infecciones oportunistas y neoplasias que el cuerpo normalmente controlaría.
+
+### Códigos principales
+
+| **Código** | **Uso** |
+| --- | --- |
+| **B20** | Enfermedad por virus de la inmunodeficiencia humana (VIH). Se utiliza cuando se sabe con certeza que el paciente tiene la enfermedad. Es el diagnóstico principal cuando las enfermedades que presenta se deben al VIH. |
+| **Z21** | Infección **asintomática** por VIH. |
+
+### Normas de codificación
+
+- Solo se codifican **casos confirmados**, no sospechosos.
+
+- Una vez clasificado como B20, el código se **mantiene en los diagnósticos futuros**.
+
+- Si el ingreso está relacionado con una patología secundaria al VIH, **B20 es el principal**; si no lo está, el principal es la patología que motiva el ingreso y B20 queda como secundario.
+
+- En embarazadas va primero **O98.7**.
+
+- El VIH tipo 2 utiliza **B97.35**.
+
+- Las enfermedades de **categoría B** son menos graves (candidiasis oral, leucoplasia vellosa); las de **categoría C** son definitorias de SIDA (sarcoma de Kaposi, tuberculosis diseminada, neumonía por *Pneumocystis jirovecii*).
+
+**Importante. **No basta con asociar «VIH» a B20: hay que valorar la situación clínica y la documentación, y consultar las notas, inclusiones y exclusiones de la categoría para decidir si corresponde B20 y si son necesarios códigos adicionales.
+
+**Véase también: **4.4 Bacteriemia, sepsis, septicemia y SIRS  ·  4.6 Casos de ejemplo: enfermedades infecciosas  ·  2.7 eCIEmaps: herramienta y método de búsqueda
+
+## 4.6 Casos de ejemplo: enfermedades infecciosas
+
+**Categoría: **Casos de ejemplo**   ·   Etiquetas: **casos resueltos, infecciosas, razonamiento
+
+**#CIE10ES  #CasosDeEjemplo  #CasosResueltos  #Infecciosas  #Razonamiento**
+
+**Resumen. **Casos que muestran cómo se razona la elección del diagnóstico principal y de los secundarios en el capítulo de infecciosas.
+
+| **Caso** | **Principal** | **Secundarios** | **Razonamiento** |
+| --- | --- | --- | --- |
+| Osteomielitis crónica de tobillo por *Pseudomonas aeruginosa*, sin indicar el lado | **M86.679** | **B96.5** | Se busca primero «osteomielitis crónica» y luego la localización. Al no indicarse derecha o izquierda se usa el 9 (no especificado). La *Pseudomonas* se codifica como causa. |
+| Sepsis grave por neumonía neumocócica, sin shock séptico | **J13** | **R65.20** | Se descarta J15 (neumonía bacteriana de otros agentes) porque el germen está identificado. R65.20 y no R65.21 porque no hay shock séptico. |
+| Septicemia por *Escherichia coli* con insuficiencia renal aguda | **A41.51** | **N17.9** | *E. coli* es gramnegativo, pero la clasificación tiene código propio (A41.51, no A41.59). Se usa N17.9 y no N28.9 porque solo se habla del riñón. |
+| Tuberculosis de columna vertebral (espondilitis tuberculosa) | **A18.01** | Pruebas (R76.-) siempre como secundario | La tuberculosis se clasifica por el órgano afectado; las pruebas diagnósticas nunca son principales. |
+| Neumonía por *Pneumocystis* en el contexto de VIH | **B20** | **B59** | El VIH es la condición crónica subyacente que provoca la inmunosupresión, por eso es el principal; B59 se registra como secundario. |
+
+**Véase también: **4.4 Bacteriemia, sepsis, septicemia y SIRS  ·  4.3 Tuberculosis  ·  4.5 VIH y SIDA
+
+# Parte 5. Neoplasias
+
+## 5.1 Fundamentos y definiciones
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **neoplasia, tumor, cáncer, definiciones, morfología
+
+**#CIE10ES  #Neoplasias  #Neoplasia  #Tumor  #Cancer  #Definiciones  #Morfologia**
+
+**Resumen. **Las neoplasias se clasifican en el capítulo 2 (C00–D49).
+
+### Definiciones
+
+| **Término** | **Definición** |
+| --- | --- |
+| **Tumor** | Hinchazón, abultamiento o crecimiento localizado de tamaño en un órgano o tejido, que puede ser benigno o maligno. |
+| **Cáncer** | Neoplasia o tumor de naturaleza maligna. |
+| **Quiste** | Formación benigna que contiene en su interior una sustancia blanda o líquida. |
+| **Nódulo** | Lesión sólida que puede estar asociada o no con una neoplasia. |
+| **Neoplasia maligna** | Crecimiento celular que invade y se infiltra en los tejidos, sin respetar las barreras anatómicas. |
+| **Neoplasia benigna** | Crecimiento celular lento y expansivo, con tendencia a desarrollar una cápsula que lo delimita. No se disemina a áreas cercanas o distantes, aunque puede causar efectos locales por desplazamiento o compresión de tejidos y órganos. |
+| **Carcinoma in situ** | Neoplasia que permanece en su lugar de origen mientras desarrolla cambios malignos. Se considera intraepitelial, no infiltrante, no invasivo y preinvasivo. |
+| **De evolución incierta** | Neoplasia con características histológicas definidas, pero cuyo comportamiento futuro no puede determinarse con certeza. |
+| **No especificada** | La histología y el comportamiento son desconocidos por falta de información suficiente en la fuente. |
+
+### Los dos datos de una neoplasia
+
+Se busca siempre primero la localización y después la morfología.
+
+| **Dato** | **Qué indica** | **Formato** | **Dónde se busca** |
+| --- | --- | --- | --- |
+| **Localización** | Dónde está el tumor (hígado, pulmón, próstata…) y su comportamiento general. | C o D + números, por ejemplo C61 | Capítulo 2 / Tabla de neoplasias |
+| **Morfología** | Qué tipo de tejido o célula es (adenocarcinoma, papiloma, linfoma…). | M + 4 dígitos + barra + dígito de comportamiento, por ejemplo M-8140/3 | Tabla de morfología (CIE-O) |
+
+Los registros de neoplasias se utilizan en **anatomía patológica** y en los registros de tumores, y permiten que otro médico, incluso de otro país, entienda el diagnóstico. La morfología se codifica con la **CIE-O** (Clasificación Internacional de Enfermedades para Oncología); los cambios entre versiones (3.1 y 3.2) no alteran los conceptos.
+
+**Fuente de la información. **Es imprescindible que el codificador revise el informe de anatomía patológica.
+
+**Véase también: **5.2 Clasificación por comportamiento  ·  5.6 Método de codificación paso a paso
+
+## 5.2 Clasificación por comportamiento
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **comportamiento, in situ, benigna, maligna, metástasis, morfología
+
+**#CIE10ES  #Neoplasias  #Comportamiento  #InSitu  #Benigna  #Maligna  #Metastasis  #Morfologia**
+
+**Resumen. **El comportamiento del tumor determina el grupo de códigos del capítulo 2 y el dígito que sigue a la barra en el código morfológico.
+
+### Estructura del capítulo 2
+
+| **Rango** | **Grupo** | **Descripción** |
+| --- | --- | --- |
+| **C00–C75** | Malignas de localización específica, primarias | Tumores invasivos que pueden afectar a tejidos adyacentes y propagarse a distancia (por diseminación linfática o hemática, o por implantes en cavidades corporales). |
+| **C76–C80** | Malignas de localización mal definida, secundarias y no especificadas | Incluye C77 (ganglios), C78 (órganos respiratorios y digestivos) y C80. Las secundarias son tumores metastásicos: propagación de una neoplasia primaria a otros órganos. |
+| **C81–C96** | Tejido linfoide, hematopoyético y relacionado | Linfomas y leucemias. |
+| **D00–D09** | Carcinoma in situ | Lesiones no invasivas que no han atravesado las membranas basales del tejido epitelial; también llamadas intraepiteliales o preinvasivas. |
+| **D10–D36** | Neoplasias benignas | Tumores que no se diseminan a otras áreas ni infiltran tejidos adyacentes. |
+| **D37–D48** | Comportamiento incierto | Características histológicas bien definidas, pero comportamiento no predecible clínicamente. |
+| **D49** | Comportamiento no especificado | No hay información suficiente sobre la naturaleza histológica o el comportamiento. |
+
+### Dígitos de comportamiento
+
+El dígito que sigue a la barra en el código morfológico indica el comportamiento del tumor. En **8140/3**, el 8140 es el tipo histológico (adenocarcinoma sin otra especificación) y el /3 indica que es maligno primario.
+
+| **Dígito** | **Comportamiento** | **Significado** |
+| --- | --- | --- |
+| **/0** | Benigno | Neoplasia que no invade ni produce metástasis. |
+| **/1** | Incierto o no especificado | No se sabe si es benigno o maligno, o no se ha especificado su comportamiento. |
+| **/2** | In situ | Células malignas confinadas a una zona delimitada por el tejido, sin invadirlo. |
+| **/3** | Maligno, localización primaria | Cáncer en el órgano donde se originó. |
+| **/6** | Maligno, localización secundaria | Metástasis: tumor en un órgano distinto del de origen. |
+
+**Véase también: **5.1 Fundamentos y definiciones  ·  5.3 Reglas de codificación de neoplasias  ·  5.4 Tejido linfoide y hematopoyético
+
+## 5.3 Reglas de codificación de neoplasias
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **primaria, secundaria, metástasis, recidiva, lateralidad, endocrinas
+
+**#CIE10ES  #Neoplasias  #Primaria  #Secundaria  #Metastasis  #Recidiva  #Lateralidad  #Endocrinas**
+
+**Resumen. **Las reglas de codificación determinan cuándo una neoplasia se considera primaria o secundaria, cómo se tratan los tumores múltiples, las recidivas y las neoplasias con efecto hormonal.
+
+### Primaria o secundaria
+
+- Si el informe dice solo «neoplasia maligna» sin más datos, se codifica como **maligna primaria** (/3). No se supone que sea secundaria salvo que se indique metástasis o sospecha clara de ella.
+
+- Para una **metástasis** se codifica también el tumor primario. Si no se conoce, se codifica como primaria no especificada. Si la primaria es desconocida y la secundaria es conocida: **C80.1**.
+
+- **Excepción del hígado:** si no se aclara si es primario o secundario, se usa **C22.9** (maligna de hígado no especificada), porque en el hígado ambos son frecuentes. Si el informe dice expresamente «metastásico», es **C78.7** y no se añade C22.
+
+- **Excepción de los ganglios linfáticos:** se asumen **secundarios**, salvo el linfoma y el sarcoma de Kaposi. Un carcinoma metastásico ganglionar sin más datos va a **C77.9**.
+
+- Los tumores del tejido linfoide y hematopoyético (linfomas, leucemias) llevan **/3**: no se consideran secundarios.
+
+- Si no se conoce la localización, se usa un código de localización mal definida, por ejemplo **C80**. La carcinomatosis sin localizaciones específicas se codifica **C80.0**.
+
+### Varios tumores y lateralidad
+
+- Si hay varias neoplasias en **localizaciones distintas**, se codifican por separado; ninguna es «secundaria» de la otra.
+
+- Hay que indicar la **lateralidad** (pulmón derecho o izquierdo, ovario derecho o izquierdo).
+
+- Si varios tumores podrían ser primarios, se codifica como primario el sitio al que se dirigen las técnicas terapéuticas más complejas, o el más afectado.
+
+- En una **lesión de sitios contiguos** se utiliza la subcategoría **.8** (por ejemplo, C02.8, C14.8, C21.8).
+
+### Recidiva, historia y seguimiento
+
+- Una **recidiva** (reaparición de un tumor ya curado) se codifica como neoplasia primaria.
+
+- Si el cáncer ya no existe ni se trata, se codifica como **antecedente personal** (**Z85**). Si reaparece el tratamiento, se codifica como enfermedad activa.
+
+- En una **revisión de seguimiento** (por ejemplo, de un linfoma) el diagnóstico principal es el código de seguimiento (**Z08**) y el secundario es el antecedente del cáncer (**Z85**).
+
+- En una **embarazada** con neoplasia maligna se codifica primero el embarazo y después la neoplasia.
+
+### Neoplasias y función endocrina
+
+- Si la neoplasia afecta a una glándula endocrina o produce disfunción hormonal, además de la neoplasia se codifica la **disfunción asociada** (por ejemplo, el hirsutismo en una neoplasia de ovario).
+
+- Los **tumores neuroendocrinos** tienen categorías propias (**C7A** maligno primario, **C7B** secundario, **D3A** benigno), así como el síndrome de **neoplasia endocrina múltiple**, una predisposición genética a tumores en glándulas endocrinas. Insulinoma y gastrinoma tienen entrada propia.
+
+- El **tejido ectópico** es tejido normal en una localización anómala (por ejemplo, páncreas ectópico en el estómago). Un cáncer que surge ahí es primario y se codifica el tejido ectópico, su ubicación y la neoplasia (ejemplo: C25.7).
+
+- La **anemia refractaria** (D64.9, morfología 9980/3 si no hay más datos) y el **síndrome mielodisplásico** (D46.9, morfología según el subtipo) tienen entrada propia.
+
+**Véase también: **5.2 Clasificación por comportamiento  ·  5.6 Método de codificación paso a paso  ·  2.6 Localización anatómica y lateralidad
+
+## 5.4 Tejido linfoide y hematopoyético
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **linfoma, leucemia, inmunofenotipo, hematopoyético
+
+**#CIE10ES  #Neoplasias  #Linfoma  #Leucemia  #Inmunofenotipo  #Hematopoyetico**
+
+**Resumen. **Los linfomas y leucemias (C81–C96) se codifican según el tipo celular y no según el órgano.
+
+- El tejido hematopoyético se encuentra sobre todo en la **médula ósea roja**. En la vida adulta es menos difuso que en el feto.
+
+- Los **linfocitos B** producen anticuerpos; los **linfocitos T** destruyen células infectadas o tumorales; las **células NK** (Natural Killer) también eliminan células dañadas. Los linfomas afectan sobre todo a B y T.
+
+- Las **leucemias** se buscan por su sigla (por ejemplo, LMA).
+
+### Inmunofenotipo
+
+Se añade como último dígito del código morfológico, tras el dígito de comportamiento. Por ejemplo, en **M9670/36** el 3 es el comportamiento (maligno primario) y el 6 indica células B. Este dígito **no es obligatorio**: muchos informes completos ya indican el tipo celular, y depende en parte de cada comunidad autónoma.
+
+| **Dígito** | **Inmunofenotipo** |
+| --- | --- |
+| **5** | Células T |
+| **6** | Células B, pre-B, B precursoras |
+| **7** | Células nulas, no T - no B |
+| **8** | Células NK (natural killers, asesinas naturales) |
+| **9** | Tipo de células no determinado, no indicado o no aplicable |
+
+**Véase también: **5.2 Clasificación por comportamiento  ·  5.8 Casos de ejemplo: neoplasias
+
+## 5.5 Carcinomas y neoplasias de huesos y cartílago
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **carcinoma, C40, huesos, cartílago, lateralidad
+
+**#CIE10ES  #Neoplasias  #Carcinoma  #C40  #Huesos  #Cartilago  #Lateralidad**
+
+**Resumen. **En los carcinomas y en las neoplasias de huesos y cartílago, la localización anatómica y la lateralidad determinan el código final.
+
+### Carcinomas
+
+El **carcinoma** es un tipo de neoplasia maligna que se origina en células de origen epitelial. Como la clasificación organiza los códigos de neoplasias malignas principalmente por localización, el término «carcinoma» por sí solo no permite seleccionar un código: hay que determinar **dónde está localizado** (órgano, tejido o estructura afectada).
+
+### Neoplasias de huesos y cartílago
+
+Son tumores que se desarrollan en el tejido óseo o cartilaginoso. La categoría **C40** corresponde a la **neoplasia maligna de huesos y cartílago articular de las extremidades**, y después hay que concretar según la localización.
+
+El razonamiento para llegar al código sigue esta secuencia:
+
+**hueso o localización → extremidad → lateralidad → código específico.**
+
+- La localización puede referirse a huesos de las extremidades, del tronco, de otras regiones o a cartílagos de determinadas localizaciones.
+
+- Si la zona puede ser derecha o izquierda, se comprueba si la clasificación diferencia la lateralidad: derecha, izquierda o no especificada.
+
+- La lateralidad se toma de la documentación y no se supone.
+
+- Se revisan las notas, inclusiones y exclusiones de la categoría.
+
+**Véase también: **2.6 Localización anatómica y lateralidad  ·  5.6 Método de codificación paso a paso  ·  2.7 eCIEmaps: herramienta y método de búsqueda
+
+## 5.6 Método de codificación paso a paso
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **procedimiento, Tabla de neoplasias, morfología
+
+**#CIE10ES  #Neoplasias  #Procedimiento  #TablaDeNeoplasias  #Morfologia**
+
+**Resumen. **La codificación de una neoplasia sigue seis pasos: localizar, elegir el comportamiento, verificar en la lista tabular, asignar la morfología, añadir complicaciones y, si hay metástasis, codificar también el primario.
+
+| **Paso** | **Qué hacer** |
+| --- | --- |
+| **1** | Leer el diagnóstico y localizar el órgano, la lateralidad y el comportamiento. |
+| **2** | Buscar la localización en la Tabla de neoplasias o en el capítulo 2 y elegir la columna del comportamiento (maligno primario, secundario, in situ, benigno, incierto, no especificado). |
+| **3** | Comprobar en la lista tabular el código, sus notas, exclusiones (Excluye1) y lateralidad. |
+| **4** | Buscar la morfología por su nombre (por ejemplo, «adenocarcinoma») y elegir el código M con el dígito de comportamiento correcto. |
+| **5** | Codificar síntomas, complicaciones y disfunciones asociadas como diagnósticos secundarios. |
+| **6** | Si hay una metástasis, codificar también el primario. Si no se conoce, usar primaria no especificada. |
+
+Si el informe no especifica el tipo histológico se usa el código de la entrada general (por ejemplo, adenocarcinoma sin otra especificación es 8140/3). Si el informe no dice nada del tipo, es preferible **no asignar morfología** a inventarla.
+
+**Véase también: **5.1 Fundamentos y definiciones  ·  5.3 Reglas de codificación de neoplasias  ·  5.8 Casos de ejemplo: neoplasias
+
+## 5.7 Diagnóstico principal, complicaciones y tratamientos
+
+**Categoría: **Neoplasias (cap. 2)**   ·   Etiquetas: **diagnóstico principal, quimioterapia, complicaciones, cuidados paliativos
+
+**#CIE10ES  #Neoplasias  #DiagnosticoPrincipal  #Quimioterapia  #Complicaciones  #CuidadosPaliativos**
+
+**Resumen. **El diagnóstico principal en un ingreso oncológico depende del motivo del ingreso: tratamiento del tumor, tratamiento de una complicación o administración de quimioterapia, radioterapia o inmunoterapia (Z51).
+
+### Selección del diagnóstico principal
+
+| **Situación** | **Diagnóstico principal / código** |
+| --- | --- |
+| **Ingreso para diagnóstico o tratamiento de un tumor** | La **neoplasia**. |
+| **Primaria más secundaria** | La que reciba las intervenciones más complejas. Si la primaria se diagnostica durante el ingreso, esa es la principal. |
+| **Ingreso solo para tratar metástasis** | La **metástasis**. |
+| **Ingreso solo para radioterapia, quimioterapia o inmunoterapia** | El contacto para tratamiento (**Z51.0 a Z51.12**), con la neoplasia como secundaria. |
+| **Ingreso con complicaciones del tratamiento** | Primero el contacto para el tratamiento y después la complicación. |
+| **Procedimientos diagnósticos para evaluar la extensión del tumor** | La **neoplasia**, con el código de contacto Z51.1 como secundario. |
+| **Implantes radiactivos o tratamientos con radioisótopos** | La **neoplasia**, sin usar Z51.0. |
+| **Colocación de vía de acceso vascular** | Sin tratamiento durante el ingreso: la neoplasia. Si después se administra quimioterapia o inmunoterapia: **Z51.1** principal y la neoplasia secundaria. |
+| **Cuidados paliativos** | **Z51.5**, como principal o secundario según sea el motivo del ingreso o se proporcionen mientras se trata otra condición. |
+
+### Complicaciones de la neoplasia
+
+Regla general: si el motivo de ingreso es la complicación, el código principal es la complicación y la neoplasia es secundaria.
+
+| **Complicación** | **Codificación** |
+| --- | --- |
+| **Caquexia** | **R64**, si el paciente la presenta. |
+| **Dolor asociado a neoplasia** | Si es el motivo principal del ingreso: **G89.3** y la neoplasia secundaria. En otros casos, el dolor va como problema adicional. |
+| **Fractura patológica** | Si el ingreso es para tratarla: **M84.5X** principal y la neoplasia secundaria. |
+| **Derrame pleural** | Siempre como complicación: primero la neoplasia maligna y después **J91.0**. |
+| **Ascitis** | La neoplasia como principal y **R18.0** como secundaria. |
+
+### Complicaciones del tratamiento
+
+| **Complicación** | **Código** |
+| --- | --- |
+| **Anemia por quimioterapia** | **D64.81** seguida de **D63.0**. Si la anemia es el motivo del ingreso, va como principal con el código de la neoplasia. |
+| **Neutropenia por quimioterapia** | **D70.2** (código relacionado: D70.1). |
+| **Pancitopenia por quimioterapia** | **D61.810**, más el efecto adverso y el código de la neoplasia. |
+| **Anemia por radioterapia** | **D63.0** y **Y84.2** (radioterapia como causa). |
+| **Mucositis oral por terapia antineoplásica** | **K12.31**; mucositis ulcerosa de la cavidad oral: **K12.33**. |
+| **Gastritis y enteritis por radiación** | **K52.1** y **K52.2**. |
+| **Otras** | **K92.89** otras hemorragias gastrointestinales especificadas; **N76.81** mucositis ulcerosa de vagina y vulva. |
+
+### Procedimientos
+
+Los procedimientos diagnósticos y terapéuticos se codifican con otra sección de la clasificación, mediante códigos de 7 caracteres en los que cada posición tiene un significado propio.
+
+**Véase también: **5.3 Reglas de codificación de neoplasias  ·  5.8 Casos de ejemplo: neoplasias
+
+## 5.8 Casos de ejemplo: neoplasias
+
+**Categoría: **Casos de ejemplo**   ·   Etiquetas: **casos resueltos, neoplasias, razonamiento
+
+**#CIE10ES  #CasosDeEjemplo  #CasosResueltos  #Neoplasias  #Razonamiento**
+
+**Resumen. **Casos que muestran cómo se combinan localización, morfología y secuenciación en neoplasias.
+
+| **Caso** | **Localización** | **Morfología** | **Razonamiento** |
+| --- | --- | --- | --- |
+| Adenocarcinoma de próstata | C61 | M-8140/3 | Aparato genital masculino. Maligno primario. |
+| Carcinoma de células no pequeñas en pulmón derecho, con metástasis en hígado de la misma morfología | C34.91 y C78.7 | M-8046/3 (primario) y M-8046/6 (metástasis) | Primero el primario y luego el secundario. El pulmón es la localización primaria; el hígado, la secundaria. |
+| Linfoma linfocítico de células B pequeñas en cabeza, cara y cuello | C83.01 | M-9670/3 (M-9670/36 con inmunofenotipo) | Linfoma no folicular de células B pequeñas. Se asigna /3 porque los tumores hematopoyéticos no son secundarios. El sexto dígito es opcional. |
+| Neoplasia endometrioide borderline de ovario derecho con hirsutismo | C56.1 y L68.0 | Endometrioide | Al saberse que el borderline es maligno, lo más correcto es C56.1; puede también clasificarse como comportamiento incierto (D39.11). L68.0 recoge el hirsutismo como disfunción asociada. |
+| Carcinoma metastásico pulmonar, sin más datos | C34.90 | No se asigna | Pulmón no especificado. |
+| Carcinoma metastásico hepático, sin origen | C78.7 | No se asigna | Secundaria de hígado; no se añade C22. |
+| Carcinoma metastásico ganglionar, sin más datos | C77.9 | No se asigna | Ganglio no especificado. |
+| Carcinoma hepatocelular con dolor abdominal | C22.0 y R10.9 | M-8170/3 | Si el paciente ingresa para tratamiento antineoplásico, el tumor es el principal y el dolor adicional. Si ingresa por dolor intenso que no responde a analgésicos, el principal es **G89.3** y C22.0 pasa a secundario. |
+
+**Véase también: **5.6 Método de codificación paso a paso  ·  5.3 Reglas de codificación de neoplasias  ·  5.7 Diagnóstico principal, complicaciones y tratamientos
+
+# Parte 6. Enfermedades sistémicas, trastornos mentales y otras patologías
+
+## 6.1 Diabetes mellitus
+
+**Categoría: **Endocrinas (cap. 4)**   ·   Etiquetas: **diabetes, E08–E13, insulina, complicaciones
+
+**#CIE10ES  #Endocrinas  #Diabetes  #E08E13  #Insulina  #Complicaciones**
+
+**Resumen. **La diabetes se clasifica en E08–E13 según su origen.
+
+### Tipo 1 y tipo 2
+
+La insulina actúa como la «llave» que abre la puerta de la célula para que entre la glucosa. Sin llave (tipo 1) o con la cerradura resistente (tipo 2), la glucosa permanece en sangre y sube la glucemia.
+
+|  | **Diabetes tipo 1** | **Diabetes tipo 2** |
+| --- | --- | --- |
+| **Origen** | Autoinmune: el sistema inmune destruye las células beta del páncreas. | El cuerpo produce insulina pero genera resistencia a ella. |
+| **Insulina** | No se produce insulina. | La insulina es insuficiente o ineficaz. |
+| **Inicio** | Suele aparecer de pequeño. | Habitualmente adquirida (hábitos, sobrepeso, fármacos). |
+| **Términos equivalentes en el informe** | DM1, diabetes tipo juvenil, diabetes insulinodependiente. | Diabetes no insulinodependiente, diabetes mellitus del adulto, o «diabetes mellitus» sin más. |
+| **Código** | **E10** | **E11** |
+
+Si el informe dice solo «diabetes» o «diabético», se codifica como **tipo 2**, aunque el paciente use insulina. La **diabetes autoinmune latente del adulto (LADA)** es de origen autoinmune como la tipo 1, pero aparece más tarde: al principio se trata con antidiabéticos orales y con el tiempo requiere insulina.
+
+### Estructura del código
+
+- Los **tres primeros caracteres** dan el tipo de diabetes (E10, E11…).
+
+- El **cuarto carácter** indica el órgano o la complicación afectada.
+
+- El **quinto y el sexto** concretan la complicación (por ejemplo, neuropatía o nefropatía diabética). Se usan tantos caracteres como hagan falta.
+
+### Otros tipos de diabetes
+
+| **Tipo** | **Código** | **Cómo se codifica** |
+| --- | --- | --- |
+| **Secundaria a otra enfermedad (fibrosis quística, neoplasia, pancreatitis…)** | E08 | Se codifica **primero la enfermedad subyacente** y después la diabetes. Es siempre diagnóstico secundario. |
+| **Inducida por fármacos o sustancias químicas** | E09 | Primero el **agente responsable** (envenenamiento, efecto adverso o infradosificación, en los códigos T) y después la diabetes. |
+| **Gestacional** | O24 | Capítulo de obstetricia. Aparece en el embarazo y suele resolverse tras el parto. |
+| **Otra diabetes especificada** | E13 | Por ejemplo, defectos genéticos de las células beta o diabetes tras cirugía. |
+
+### Uso prolongado de medicación (códigos Z79)
+
+- **Z79.4:** uso prolongado de insulina. Se añade en la **tipo 2** cuando el paciente recibe insulina de forma prolongada. En la **tipo 1 no se añade**, porque la insulina es inherente al tratamiento. En E08 y E09 puede ser necesario añadirlo, según las instrucciones de cada categoría.
+
+- **Z79.84:** uso prolongado de antidiabéticos orales.
+
+- **Z79.899:** otra terapia prolongada con medicamentos (por ejemplo, levotiroxina). **Z79.1** corresponde al uso prolongado de AINE.
+
+- Los códigos Z (capítulo 21) incluyen los tratamientos farmacológicos prolongados; si el medicamento no aparece por nombre, se busca como una exclusión en esa categoría.
+
+### Complicaciones
+
+Nefropatía (riñón), catarata (ojo), neuropatía y cetoacidosis, además del pie diabético, en el que hay que identificar si la causa es neuropatía, vasculopatía o ambas. La **cetoacidosis** se codifica E10.10 o E10.11 (tipo 1) y E11.10 (tipo 2). El **hígado graso** puede aparecer cuando se moviliza mucha grasa por una diabetes mal tratada.
+
+**Véase también: **6.2 Enfermedades de la tiroides  ·  6.4 Aparato genitourinario  ·  6.5 Casos de ejemplo: patologías sistémicas
+
+## 6.2 Enfermedades de la tiroides
+
+**Categoría: **Endocrinas (cap. 4)**   ·   Etiquetas: **tiroides, hipotiroidismo, hipertiroidismo, bocio, E00–E07
+
+**#CIE10ES  #Endocrinas  #Tiroides  #Hipotiroidismo  #Hipertiroidismo  #Bocio  #E00E07**
+
+**Resumen. **La tiroides produce hormonas como la T3 y la T4.
+
+La tiroides es una glándula situada en el cuello. Para codificar basta localizar la tiroides y elegir según el cuadro: hipotiroidismo, hipertiroidismo, bocio o tiroiditis.
+
+| **Código** | **Trastorno** | **Notas** |
+| --- | --- | --- |
+| **E00** | Síndrome congénito por déficit de yodo (cretinismo) | Déficit de hormonas tiroideas desde el nacimiento, por falta de yodo. |
+| **E01 y E04** | Trastornos tiroideos por déficit de yodo y otros bocios no tóxicos | **Bocio:** tiroides inflamada o agrandada (difuso, nodular, multinodular). |
+| **E02, E03** | Hipotiroidismo | Baja producción de hormona tiroidea. E02 es el hipotiroidismo subclínico (TSH elevada y paciente asintomático). E03 incluye el congénito (sin bocio) y el inducido por fármacos o sustancias tóxicas. |
+| **E05** | Hipertiroidismo y tirotoxicosis | Exceso de hormona tiroidea (T3 y T4). Incluye la enfermedad de Graves-Basedow y la crisis tiroidea. |
+| **E06** | Tiroiditis | Inflamación o infección de la tiroides. |
+
+**Véase también: **6.1 Diabetes mellitus  ·  6.5 Casos de ejemplo: patologías sistémicas
+
+## 6.3 Trastornos mentales
+
+**Categoría: **Trastornos mentales (cap. 5)**   ·   Etiquetas: **trastornos orgánicos, demencia, psicotrópicos, dependencia, abstinencia
+
+**#CIE10ES  #TrastornosMentales  #TrastornosOrganicos  #Demencia  #Psicotropicos  #Dependencia  #Abstinencia**
+
+**Resumen. **Los trastornos mentales (capítulo 5) incluyen los orgánicos, originados por una alteración del sistema nervioso central, y los debidos al consumo de sustancias psicotrópicas, que se codifican según la sustancia y el tipo de trastorno.
+
+### Trastornos orgánicos
+
+Se originan por una alteración de la estructura del **sistema nervioso central (SNC)**. Ejemplos: demencia (Alzheimer, Parkinson), deterioro cognitivo, delirio (estado confusional agudo, por fármacos o infecciones) y trastornos psicóticos orgánicos (ideas delirantes, alucinaciones). El trastorno psicótico orgánico no alcohólico se codifica con **F06.0** (trastorno psicótico con alucinaciones debido a afección fisiológica conocida).
+
+**Ejemplo. **Paciente con Alzheimer en etapa moderada con demencia asociada. Se busca «Alzheimer» (capítulo 6, sistema nervioso). Sin más datos es **G30.9**; con inicio tardío, **G30.1** como principal y **F02.80** (demencia en Alzheimer sin síntomas conductuales) como secundario.
+
+### Trastornos por sustancias psicotrópicas
+
+Las sustancias psicotrópicas (alcohol, opiáceos, estimulantes, alucinógenos) alteran el funcionamiento normal. Los trastornos incluyen síndrome de dependencia, de abstinencia, intoxicación, envenenamiento y abuso. Los códigos **F10–F19** se buscan en el capítulo 5; se identifican la sustancia, la gravedad del trastorno y las complicaciones asociadas.
+
+| **Tipo** | **Definición** | **Ejemplo** |
+| --- | --- | --- |
+| **Síndrome de dependencia** | Necesidad compulsiva de consumir una droga, que afecta a la salud física y mental. | **F12.20** dependencia de cannabis, sin complicaciones. |
+| **Trastorno por abuso** | El consumo no genera necesidad compulsiva, pero sí efectos perjudiciales en la salud o el comportamiento. | **F11.10** abuso de opiáceos, sin complicaciones. |
+| **Síndrome de abstinencia** | Síntomas al interrumpir el consumo de una sustancia de la que se es dependiente. En el alcohol puede evolucionar a delirium tremens. | **F10.23** dependencia de alcohol con abstinencia; **F10.231** con delirio por abstinencia. |
+| **Intoxicaciones y envenenamientos** | El consumo alcanza niveles tóxicos. Se codifica según la intencionalidad (accidental, intencionada, agresión o no especificada). | Capítulo 19, **T36–T50**; por ejemplo **T40.1X2A** envenenamiento por heroína, autolesión intencionada, contacto inicial. |
+
+**Véase también: **2.1 Estructura jerárquica de la CIE-10-ES  ·  6.5 Casos de ejemplo: patologías sistémicas
+
+## 6.4 Aparato genitourinario
+
+**Categoría: **Genitourinario (cap. 14)**   ·   Etiquetas: **riñón, nefrona, vejiga, próstata, mama, N00–N99
+
+**#CIE10ES  #Genitourinario  #Rinon  #Nefrona  #Vejiga  #Prostata  #Mama  #N00N99**
+
+**Resumen. **El capítulo 14 (N) abarca riñón, vías urinarias, genitales masculinos y mama.
+
+### Riñón
+
+- La **nefrona** es la unidad funcional del riñón: un glomérulo más túbulos renales.
+
+- **Enfermedad glomerular (N00–N08):** se codifica primero la enfermedad subyacente cuando se conoce. N00 es para causa primaria (el paciente acude por el síndrome nefrítico); N08 es para el trastorno glomerular en enfermedades clasificadas bajo otro concepto. N00 no se asigna automáticamente: hay que comprobar la relación etiológica y las instrucciones de la lista tabular.
+
+- **Enfermedad tubulointersticial:** afecta a los túbulos y al tejido de alrededor. Por ejemplo, la **pielonefritis**, infección que asciende por la uretra y la vejiga hasta uno o ambos riñones.
+
+- **Insuficiencia renal (N17–N19):** para que el código esté completo hay que saber si está asociada a diabetes o hipertensión; si lo está, primero se codifica esa causa.
+
+- Si interviene una bacteria o enfermedad causal (por ejemplo, tuberculosis), se codifica primero la enfermedad por la que acude el paciente y después el agente causal como código adicional.
+
+### Vías urinarias
+
+- **Cistitis:** se codifica la cistitis y después la bacteria. Las bacterias se codifican siempre como código adicional (**B96.-**), nunca como principal.
+
+- **Litiasis:** N20–N23. La infección urinaria por sonda se considera complicación del procedimiento.
+
+- **Síntomas urinarios:** hematuria (**R31**), incontinencia urinaria no especificada (**R32**), incontinencia especificada (**N39.3** y **N39.4-**), obstrucción urinaria (**N13.8** y **N13.9**).
+
+### Aparato genital masculino y mama
+
+| **Código** | **Rúbrica y notas** |
+| --- | --- |
+| **N40** | Hiperplasia prostática benigna. Incluye hipertrofia adenofibromatosa de próstata, hiperplasia o hipertrofia benigna de próstata, HPB, pólipo de próstata y próstata nodular. Excluye 1: neoplasias benignas de próstata (D29.1). Excluye 2: neoplasia maligna de próstata (C61). |
+| **N41** | Enfermedades inflamatorias de próstata. Usar código adicional (B95–B97) para identificar el microorganismo. |
+| **N42** | Otros trastornos de próstata y los no especificados. |
+| **N43** | Hidrocele y espermatocele. |
+| **N45** | Orquitis y epididimitis (N45.1: epididimitis). Normalmente se añade la infección causante. |
+| **N60** | Displasia mamaria benigna. Incluye mastopatía fibroquística. |
+| **N61** | Trastornos inflamatorios de mama. Excluye 1: carcinoma inflamatorio de mama (C50.9-), mastitis infecciosa neonatal (P39.0), trastorno inflamatorio de mama asociado con parto (O91.-), tromboflebitis del seno o enfermedad de Mondor (I80.8). |
+| **N62** | Hipertrofia mamaria: ginecomastia, hipertrofia de mama NEOM, hipertrofia masiva puberal de mama. Excluye 1: desproporción de mama reconstruida (N65.1), ingurgitación mamaria del recién nacido (P83.4). |
+| **N63** | Bulto no especificado de mama (nódulo o nódulos NEOM de mama). |
+| **N64** | Otros trastornos mamarios. Excluye 2: complicación mecánica de prótesis e implante de mama (T85.4-). |
+| **N65** | Deformidad y desproporción de mama reconstruida. |
+
+Excluye 1 general de N60–N65: trastornos de mama asociados al parto (O91–O92). Las notas deben confirmarse siempre en la lista tabular vigente.
+
+**Véase también: **6.1 Diabetes mellitus  ·  2.6 Localización anatómica y lateralidad  ·  6.5 Casos de ejemplo: patologías sistémicas
+
+## 6.5 Casos de ejemplo: patologías sistémicas
+
+**Categoría: **Casos de ejemplo**   ·   Etiquetas: **casos resueltos, diabetes, tiroides, mentales, genitourinario
+
+**#CIE10ES  #CasosDeEjemplo  #CasosResueltos  #Diabetes  #Tiroides  #Mentales  #Genitourinario**
+
+**Resumen. **Casos que muestran la secuenciación de códigos en diabetes, tiroides, trastornos mentales y patología genitourinaria.
+
+| **Caso** | **Códigos** | **Explicación** |
+| --- | --- | --- |
+| Diabetes tipo 2 con artropatía neuropática y catarata diabética, en tratamiento con insulina | E11.610, E11.36 y Z79.4 | Diabetes tipo 2 con complicaciones específicas, más uso prolongado de insulina. |
+| Hipotiroidismo congénito sin bocio, con levotiroxina prolongada | E03.1 y Z79.899 | La levotiroxina no tiene subcódigo propio dentro de Z79, de modo que va en «otra terapia prolongada con medicamentos». |
+| Alzheimer en etapa moderada con demencia | G30.1 y F02.80 | Sin más datos, G30.9. Con inicio tardío y demencia asociada, G30.1 como principal y F02.80 como secundario. |
+| Síndrome nefrítico agudo con amiloidosis | E85.9 y N08 | Primero la enfermedad subyacente (amiloidosis) y después el trastorno glomerular. No se asigna N00 automáticamente: hay que comprobar la relación etiológica. |
+| Cistitis aguda causada por *E. coli* | N30.0- y B96.20 | Primero la cistitis y después la bacteria como código adicional. |
+| Paciente masculino con epididimitis aguda | N45.1 | Aparato genital masculino. Normalmente habría que añadir la infección causante. |
+| Paciente femenino con mastopatía fibroquística bilateral | N60.11 y N60.12 | Con lateralidad, la afectación bilateral se codifica mama por mama. N60.19 es «mama no especificada» y no equivale a bilateral. |
+
+**Véase también: **6.1 Diabetes mellitus  ·  6.2 Enfermedades de la tiroides  ·  6.3 Trastornos mentales  ·  6.4 Aparato genitourinario
+
+# Parte 7. Anexos
+
+## 7.1 Glosario
+
+**Categoría: **Anexos**   ·   Etiquetas: **glosario, definiciones, terminología
+
+**#CIE10ES  #Anexos  #Glosario  #Definiciones  #Terminologia**
+
+**Resumen. **Definiciones de los términos que se utilizan a lo largo de la base de conocimiento, ordenadas alfabéticamente.
+
+| **Término** | **Definición** |
+| --- | --- |
+| **Agente etiológico** | Microorganismo (patógeno) que causa una infección. También se denomina agente causal. |
+| **Bacteriemia** | Presencia de bacterias en la sangre (R78.81). |
+| **Bocio** | Aumento de tamaño de la glándula tiroides, difuso o nodular. |
+| **Buscador** | Herramienta de eCIEmaps que permite introducir un término o diagnóstico para localizar las categorías y códigos relacionados. |
+| **Carcinoma** | Neoplasia maligna que se origina en células de tejidos epiteliales. |
+| **Categoría** | Nivel de la clasificación que agrupa códigos relacionados: una letra y dos números. |
+| **Cetoacidosis** | Complicación de la diabetes en la que, al no poder usar la glucosa, el cuerpo degrada grasas y acumula cuerpos cetónicos, sustancias tóxicas. |
+| **CIE-10-ES** | Clasificación Internacional de Enfermedades, 10.ª revisión, Modificación Clínica, adaptada para España. |
+| **Código** | Conjunto de caracteres que representa una enfermedad, diagnóstico, condición o situación clínica. |
+| **Código por defecto** | Código que proporciona el índice alfabético; representa la afección asociada con mayor frecuencia al término y debe verificarse en la lista tabular. |
+| **Comorbilidad** | Enfermedad que el paciente presenta al mismo tiempo que la enfermedad principal. |
+| **Comportamiento (neoplasia)** | Carácter benigno, in situ, maligno primario, maligno secundario, incierto o no especificado de un tumor; se indica con el dígito tras la barra del código morfológico. |
+| **Diagnóstico principal** | Razón por la que el paciente recibe atención médica o ingresa en el hospital. |
+| **Diagnóstico secundario** | Condición adicional que influye en el tratamiento, la estancia o el pronóstico (comorbilidades, complicaciones, factores de riesgo). |
+| **Documentación clínica** | Información registrada por los profesionales sanitarios que sirve de base para la codificación. |
+| **eCIEmaps** | Herramienta informática para consultar y navegar por la CIE-10-ES, localizar diagnósticos y comprobar códigos, notas, inclusiones y exclusiones. |
+| **Epónimo** | Nombre propio asociado a una enfermedad o estructura anatómica (por ejemplo, trompa de Falopio). |
+| **Exclusión** | Indicación que señala que un diagnóstico o situación no debe codificarse en esa categoría. |
+| **Excluye1** | Instrucción de la lista tabular: las dos afecciones no pueden codificarse a la vez. |
+| **Excluye2** | Instrucción de la lista tabular: «no incluido aquí»; pueden asignarse ambos códigos si existen las dos condiciones. |
+| **Inclusión** | Indicación que muestra qué enfermedades, diagnósticos o situaciones están incluidos en una categoría. |
+| **Inmunofenotipo** | Tipo de célula afectada en linfomas y leucemias (T, B, nula, NK); se indica con un dígito opcional al final del código morfológico. |
+| **LADA** | Diabetes autoinmune latente del adulto: de origen autoinmune como la tipo 1 pero de aparición más tardía; con el tiempo requiere insulina. |
+| **Lateralidad** | Indicación del lado del cuerpo en que se encuentra una lesión o enfermedad: derecha, izquierda o no especificada. |
+| **Localización anatómica** | Lugar concreto del cuerpo donde se encuentra una enfermedad, lesión o neoplasia. |
+| **Marcador de posición «X»** | Carácter que rellena las posiciones vacías de un código que necesita un séptimo carácter. |
+| **Metástasis** | Tumor que aparece en un órgano distinto del de origen por propagación de una neoplasia primaria. |
+| **Modificador esencial / no esencial** | Términos del índice alfabético que complementan al término principal. Los no esenciales van entre paréntesis; los esenciales van sangrados debajo y condicionan el código. |
+| **Morfología** | Tipo de tejido o célula de una neoplasia; se codifica con la CIE-O (M + 4 dígitos + barra + comportamiento). |
+| **Nefrona** | Unidad funcional del riñón: un glomérulo más túbulos renales. |
+| **Neoplasia** | Crecimiento anormal de células que puede ser benigno o maligno. |
+| **Nota** | Información o instrucción que acompaña a una categoría o código y debe consultarse para codificar correctamente. |
+| **Recidiva** | Reaparición de un tumor ya curado; se codifica como neoplasia primaria. |
+| **Sepsis** | Respuesta inflamatoria sistémica causada por una infección. Se codifica después de la infección subyacente. |
+| **Septicemia** | Infección generalizada con presencia de gran cantidad de bacterias en el torrente sanguíneo (A41.-). |
+| **SIRS** | Síndrome de respuesta inflamatoria sistémica, de causa infecciosa o no infecciosa. |
+| **Subcategoría** | División de una categoría que permite una clasificación más específica (cuarto carácter y siguientes). |
+| **Tejido ectópico** | Tejido normal situado en una localización anómala. |
+| **Término principal** | Palabra clave del índice alfabético (en negrita) para localizar un diagnóstico: patología, síntoma o epónimo. |
+| **Trastorno mental orgánico** | Trastorno originado por una alteración de la estructura del sistema nervioso central (demencia, delirio…). |
+| **VIH** | Virus de la inmunodeficiencia humana: retrovirus que destruye los linfocitos CD4 y deteriora progresivamente el sistema inmunitario. |
+
+## 7.2 Preguntas frecuentes
+
+**Categoría: **Anexos**   ·   Etiquetas: **preguntas frecuentes, repaso, reglas
+
+**#CIE10ES  #Anexos  #PreguntasFrecuentes  #Repaso  #Reglas**
+
+**Resumen. **Respuestas breves a las dudas más habituales sobre las reglas de codificación.
+
+| **Pregunta** | **Respuesta** |
+| --- | --- |
+| **¿Qué diferencia hay entre Excluye1 y Excluye2?** | Con Excluye1 los dos códigos no pueden asignarse a la vez. Excluye2 significa «no incluido aquí»: si el paciente presenta ambas condiciones, se pueden asignar los dos. |
+| **¿Qué es el código por defecto?** | El que da el índice alfabético: representa la afección más frecuente asociada al término y debe verificarse en la lista tabular. |
+| **¿Qué ocurre si falta el séptimo carácter de un código que lo requiere?** | El código es inválido. Las posiciones intermedias vacías se rellenan con «X». |
+| **¿Se puede elegir siempre el primer resultado del buscador?** | No. Hay que comprobar cuál corresponde realmente al diagnóstico documentado y revisar notas, inclusiones y exclusiones. |
+| **¿Qué se hace ante un informe ambiguo?** | Se solicita aclaración al médico y se revisan las pruebas realizadas; nunca se inventa un código. |
+| **¿Qué ocurre si el informe no indica la lateralidad?** | Se utiliza la opción «no especificada» cuando existe; no se supone el lado. |
+| **¿Cómo se codifica una sepsis grave sin shock séptico?** | Primero la infección subyacente y después R65.20. |
+| **¿Dónde se codifican las pruebas de la tuberculosis?** | En R76, siempre como diagnóstico secundario. |
+| **¿Cuándo se usa Z21 en lugar de B20?** | Cuando la infección por VIH es asintomática. |
+| **¿Qué indica el /6 en un código morfológico?** | Neoplasia maligna de localización secundaria (metástasis). El /2 indica in situ y el /3, maligno primario. |
+| **¿Cómo se codifica «neoplasia maligna de X» sin más datos?** | Como maligna primaria (/3). |
+| **¿Qué se asume de un tumor ganglionar sin especificar?** | Que es secundario (C77.-), salvo linfoma y sarcoma de Kaposi. |
+| **¿Cómo se codifica un cáncer de hígado sin aclarar si es primario o secundario?** | Como C22.9; no se asume secundario. |
+| **¿Qué se codifica en una revisión de seguimiento de un cáncer curado?** | Z08 como principal y Z85 como antecedente personal. |
+| **¿Qué ocurre si hay varios tumores en localizaciones distintas?** | Se codifican por separado. |
+| **¿Qué tipo de diabetes es la que el informe llama solo «diabética»?** | Tipo 2 (E11), aunque el paciente use insulina. |
+| **¿Qué se codifica primero en la diabetes secundaria?** | La enfermedad subyacente (E08) o el agente tóxico o fármaco (E09). |
+| **¿Cuándo se añade Z79.4?** | En la diabetes tipo 2 con insulina prolongada. En la tipo 1 no se añade, porque la insulina es inherente al tratamiento. |
+| **En una insuficiencia renal por diabetes, ¿qué va primero?** | La diabetes; después el fallo renal. |
+| **¿Una bacteria se codifica antes o después de la enfermedad?** | Después, como código adicional (B96.-). |
+
+## 7.3 Códigos de referencia rápida
+
+**Categoría: **Anexos**   ·   Etiquetas: **códigos, referencia rápida, tabla
+
+**#CIE10ES  #Anexos  #Codigos  #ReferenciaRapida  #Tabla**
+
+**Resumen. **Tabla de consulta rápida con los códigos citados en los artículos y el artículo donde se explican.
+
+| **Código** | **Significado** | **Artículo** |
+| --- | --- | --- |
+| **J45** | Asma (J45.9: sin especificar) | 1.1 Qué es la codificación sanitaria |
+| **H66.90** | Código que aparece entre los resultados de la búsqueda «otitis» (ejemplo de resultados múltiples) | 2.7 eCIEmaps: herramienta y método de búsqueda |
+| **Z16** | Resistencia a fármacos antimicrobianos | 4.2 Normas generales del capítulo de infecciosas |
+| **B90** | Secuelas de tuberculosis | 4.3 Tuberculosis |
+| **R76** | Pruebas diagnósticas de tuberculosis (siempre secundario) | 4.3 Tuberculosis |
+| **R78.81** | Bacteriemia | 4.4 Bacteriemia, sepsis, septicemia y SIRS |
+| **A41.-** | Septicemia (A41.9 sin agente identificado) | 4.4 Bacteriemia, sepsis, septicemia y SIRS |
+| **R65.20 / R65.21** | Sepsis grave sin / con shock séptico | 4.4 Bacteriemia, sepsis, septicemia y SIRS |
+| **R65.1-** | SIRS de causa no infecciosa | 4.4 Bacteriemia, sepsis, septicemia y SIRS |
+| **B20** | Enfermedad por VIH | 4.5 VIH y SIDA |
+| **Z21** | Infección asintomática por VIH | 4.5 VIH y SIDA |
+| **C00–C75 / C76–C80 / C81–C96** | Malignas primarias / secundarias y mal definidas / linfoide y hematopoyético | 5.2 Clasificación por comportamiento |
+| **D00–D09 / D10–D36 / D37–D48 / D49** | In situ / benignas / comportamiento incierto / no especificado | 5.2 Clasificación por comportamiento |
+| **C22.9 / C78.7 / C77.9** | Hígado no especificado / metástasis hepática / ganglio no especificado | 5.3 Reglas de codificación de neoplasias |
+| **C80.0 / C80.1** | Carcinomatosis / primaria desconocida con secundaria conocida | 5.3 Reglas de codificación de neoplasias |
+| **Z85 / Z08** | Antecedente personal de cáncer / revisión de seguimiento | 5.3 Reglas de codificación de neoplasias |
+| **C40** | Neoplasia maligna de huesos y cartílago articular de las extremidades | 5.5 Carcinomas y neoplasias de huesos y cartílago |
+| **Z51.-** | Contacto para quimioterapia, radioterapia o inmunoterapia (Z51.5: cuidados paliativos) | 5.7 Diagnóstico principal, complicaciones y tratamientos |
+| **G89.3** | Dolor asociado a neoplasia | 5.7 Diagnóstico principal, complicaciones y tratamientos |
+| **E10 / E11** | Diabetes tipo 1 / tipo 2 | 6.1 Diabetes mellitus |
+| **E08 / E09 / E13** | Diabetes secundaria a enfermedad / inducida por fármacos / otra especificada | 6.1 Diabetes mellitus |
+| **Z79.4 / Z79.84 / Z79.899** | Insulina prolongada / antidiabéticos orales / otra terapia prolongada con medicamentos | 6.1 Diabetes mellitus |
+| **E00–E07** | Trastornos de la tiroides | 6.2 Enfermedades de la tiroides |
+| **G30.1 + F02.80** | Alzheimer de inicio tardío + demencia sin síntomas conductuales | 6.3 Trastornos mentales |
+| **N40 / N60–N65** | Hiperplasia prostática benigna / trastornos de la mama | 6.4 Aparato genitourinario |
+| **N39.0 + B96.-** | Infección urinaria + agente causal como código adicional | 6.4 Aparato genitourinario |
+
+Base de conocimiento  ·  Página

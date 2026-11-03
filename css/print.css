@@ -1,0 +1,11 @@
+/* IMPRESIÓN: contenido a una columna, sin navegación ni controles. */
+@media print {
+  :root { --paper: #fff; --ink: #000; --muted: #333; }
+  .site-header, .site-nav, .reader, .filter-bar, .entry__tools, .hashtags, .skip-link, .site-footer a { display: none !important; }
+  .layout { display: block; padding: 0; }
+  .content { max-width: none; }
+  .entry { break-inside: avoid-page; box-shadow: none; border: 1px solid #999; }
+  .table-wrap { overflow: visible; }
+  a[href^="#"]::after { content: ""; }
+  abbr[title]::after { content: " (" attr(title) ")"; font-size: .8em; }
+}

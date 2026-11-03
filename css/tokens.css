@@ -1,0 +1,66 @@
+/* TOKENS: única fuente de valores de diseño. Tema "Laboratorio CIE-10-ES" (expediente clínico). */
+@layer tokens, base, layout, components, utilities;
+
+@layer tokens {
+  :root {
+    color-scheme: light dark;
+    --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+    /* Paleta del tema original */
+    --paper: #FFFFFF; --expediente: #F8FAFC; --ink: #111827; --cie: #0E7490; --alerta: #DC2626; --valida: #059669; --nota: #CA8A04;
+    --soft: #E5E7EB; --soft2: #EEF2F7; --soft3: #F1F5F9; --line: #E5E7EB; --grid: rgba(17, 24, 39, .04);
+    --surface: #FAFBFC;            /* fondos de panel */
+    --slate-line: #E2E8F0; --slate-dash: #CBD5E1;
+    --muted: #475569;              /* texto secundario con contraste AA */
+    --faint: #64748B;              /* etiquetas mono (4.7:1 sobre blanco) */
+    --dark: #111827; --on-dark: #FFFFFF; --dark-2: #334155;
+    --cie-strong: #0B5C71; --on-cie: #FFFFFF; --focus: #2563EB;
+    --card-shadow: 0 1px 2px rgba(16, 24, 40, .04), 0 4px 16px rgba(16, 24, 40, .06);
+    --card-shadow-hover: 0 2px 8px rgba(16, 24, 40, .06), 0 12px 32px rgba(16, 24, 40, .08);
+    --hero-shadow: 0 1px 2px rgba(16, 24, 40, .04), 0 8px 24px rgba(16, 24, 40, .06);
+
+    /* Acentos de avisos (fondo / borde / texto) */
+    --c-note-bg: #F0F9FF; --c-note-bd: #BAE6FD; --c-note-tx: #075985; --c-note-ac: #0EA5E9;
+    --c-key-bg: #ECFDF5; --c-key-bd: #A7F3D0; --c-key-tx: #047857; --c-key-ac: #059669;
+    --c-example-bg: #F5F3FF; --c-example-bd: #DDD6FE; --c-example-tx: #5B21B6; --c-example-ac: #8B5CF6;
+    --c-warn-bg: #FFFBEB; --c-warn-bd: #FDE68A; --c-warn-tx: #92400E; --c-warn-ac: #CA8A04;
+    --amber-bg: #FEF3C7;
+
+    --radius: 16px; --radius-lg: 20px; --radius-md: 12px; --radius-sm: 8px;
+    --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.5rem; --space-6: 2rem; --space-7: 3rem;
+    --measure: 72ch; --header-h: 7.25rem; --nav-w: 18.5rem; --container: 1280px;
+    --text-2xs: .6875rem; --text-xs: .75rem; --text-sm: .875rem; --text-md: 1rem; --text-lg: 1.25rem;
+    --text-xl: clamp(1.25rem, 1.05rem + 1vw, 1.75rem); --text-hero: clamp(2.25rem, 1.2rem + 4.2vw, 4rem);
+  }
+  :root[data-theme="light"] { color-scheme: light; }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #0B1220; --expediente: #101A2E; --ink: #E5E7EB; --cie: #22D3EE; --soft: #263349; --soft2: #1E2A40; --soft3: #17223A; --line: #263349; --grid: rgba(229, 231, 235, .05);
+    --surface: #0F182B; --slate-line: #2C3B55; --slate-dash: #3A4B68; --muted: #B4BED0; --faint: #9AA7BC;
+    --dark: #020617; --on-dark: #F8FAFC; --dark-2: #1E293B; --cie-strong: #67E8F9; --on-cie: #04202A; --focus: #93C5FD;
+    --card-shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 4px 16px rgba(0, 0, 0, .35); --card-shadow-hover: 0 2px 8px rgba(0, 0, 0, .45), 0 12px 32px rgba(0, 0, 0, .4); --hero-shadow: var(--card-shadow);
+    --c-note-bg: #0C2233; --c-note-bd: #1E4C6B; --c-note-tx: #BAE6FD; --c-note-ac: #38BDF8;
+    --c-key-bg: #062A21; --c-key-bd: #0F5E49; --c-key-tx: #A7F3D0; --c-key-ac: #34D399;
+    --c-example-bg: #1E1738; --c-example-bd: #43357A; --c-example-tx: #DDD6FE; --c-example-ac: #A78BFA;
+    --c-warn-bg: #2A2008; --c-warn-bd: #6B5314; --c-warn-tx: #FDE68A; --c-warn-ac: #EAB308; --amber-bg: #3A2D0A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #0B1220; --expediente: #101A2E; --ink: #E5E7EB; --cie: #22D3EE; --soft: #263349; --soft2: #1E2A40; --soft3: #17223A; --line: #263349; --grid: rgba(229, 231, 235, .05);
+      --surface: #0F182B; --slate-line: #2C3B55; --slate-dash: #3A4B68; --muted: #B4BED0; --faint: #9AA7BC;
+      --dark: #020617; --on-dark: #F8FAFC; --dark-2: #1E293B; --cie-strong: #67E8F9; --on-cie: #04202A; --focus: #93C5FD;
+      --card-shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 4px 16px rgba(0, 0, 0, .35); --card-shadow-hover: 0 2px 8px rgba(0, 0, 0, .45), 0 12px 32px rgba(0, 0, 0, .4); --hero-shadow: var(--card-shadow);
+      --c-note-bg: #0C2233; --c-note-bd: #1E4C6B; --c-note-tx: #BAE6FD; --c-note-ac: #38BDF8;
+      --c-key-bg: #062A21; --c-key-bd: #0F5E49; --c-key-tx: #A7F3D0; --c-key-ac: #34D399;
+      --c-example-bg: #1E1738; --c-example-bd: #43357A; --c-example-tx: #DDD6FE; --c-example-ac: #A78BFA;
+      --c-warn-bg: #2A2008; --c-warn-bd: #6B5314; --c-warn-tx: #FDE68A; --c-warn-ac: #EAB308; --amber-bg: #3A2D0A;
+    }
+  }
+  /* Tamaño de texto elegido por la persona (rem en todo el sitio) */
+  :root[data-fs="0"] { font-size: 87.5%; }
+  :root[data-fs="2"] { font-size: 112.5%; }
+  :root[data-fs="3"] { font-size: 125%; }
+}
