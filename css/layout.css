@@ -3,7 +3,7 @@
   .container { max-width: var(--container); margin-inline: auto; padding-inline: var(--space-4); }
   @media (min-width: 48rem) { .container { padding-inline: var(--space-5); } }
 
-  .site-header { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--paper) 82%, transparent); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-bottom: 1px solid var(--soft2); box-shadow: 0 1px 0 0 rgba(16, 24, 40, .02), 0 1px 8px rgba(16, 24, 40, .03); }
+  .site-header { position: sticky; top: 0; z-index: 30; background: color-mix(in srgb, var(--paper) 94%, transparent); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border-bottom: 1px solid var(--soft2); box-shadow: 0 1px 0 0 rgba(16, 24, 40, .02), 0 1px 8px rgba(16, 24, 40, .03); }
   .site-header__strip { border-bottom: 1px solid var(--line); background: linear-gradient(90deg, color-mix(in srgb, #0EA5E9 9%, var(--paper)), var(--surface), color-mix(in srgb, #8B5CF6 9%, var(--paper))); }
   .site-header__strip-inner { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2) var(--space-5); padding-block: var(--space-2); }
   .site-header__bar { display: flex; align-items: center; flex-wrap: wrap; gap: var(--space-2) var(--space-3); padding-block: var(--space-3); }
@@ -20,19 +20,4 @@
   .site-footer { margin-top: var(--space-7); border-top: 1px solid var(--soft2); background: var(--surface); }
   .site-footer__inner { display: flex; flex-direction: column; justify-content: space-between; gap: var(--space-3); padding-block: var(--space-4); }
   @media (min-width: 48rem) { .site-footer__inner { flex-direction: row; } }
-
-  /* Cabecera móvil: una sola fila compacta; búsqueda y ajustes se abren como paneles */
-  @media (max-width: 47.99rem) {
-    .site-header { transition: transform .28s ease; }
-    .site-header.is-hidden { transform: translateY(-100%); }
-    .site-header__strip { display: none; }
-    .site-header__bar { padding-block: .375rem; padding-top: max(.375rem, env(safe-area-inset-top)); gap: var(--space-2); }
-    .header-actions { display: flex; gap: var(--space-1); margin-left: auto; }
-    .nav-toggle__text { display: none; }
-    .brand__logo { height: 2rem; }
-    .js .search:not([data-open]), .js .toolbar:not([data-open]) { display: none; }
-    .search { order: 10; flex: 1 1 100%; max-width: none; margin-bottom: .25rem; }
-    .toolbar { order: 11; flex: 1 1 100%; margin: 0 0 .25rem; justify-content: space-between; }
-    .toolbar .btn { flex: 1; }
-  }
 }

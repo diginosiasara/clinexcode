@@ -15,3 +15,4 @@
   .content { max-width: none; }
 }
 @media print { .toc, .site-nav__tools { display: none !important; } }
+@media print { .section-listen, .selection-listen, .pick-hint, .listen-bar { display: none !important; } }
