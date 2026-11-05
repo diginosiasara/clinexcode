@@ -1,5 +1,7 @@
 # Base de conocimiento · Codificación clínica con la CIE-10-ES
 
+**Autoría:** Sara Lopez Figueredo Sainz · **Patente de:** Diginosia.com · © 2026. Todos los derechos reservados.
+
 Sitio estático (sin dependencias, sin build obligatorio, sin peticiones a terceros).
 
 ## Arquitectura y responsabilidades
@@ -27,7 +29,13 @@ Abrir en local: basta con abrir `index.html` (doble clic); también funciona con
   - Sugerencias mientras se escribe en la cabecera (patrón combobox: flechas, Enter, Esc), búsquedas recientes y atajo `/`.
 
 ## Lector de voz
-Reproductor accesible (región con nombre): pausa/reanudar, párrafo anterior/siguiente, detener, velocidad y voz recordadas, barra de progreso y resaltado con desplazamiento automático. Atajos dentro del reproductor: `←` `→` cambian de párrafo, `Esc` detiene; clic en un párrafo mientras se lee para continuar desde ahí. Los cambios de estado se anuncian por una región `aria-live`; no se anuncia cada párrafo para no solaparse con un lector de pantalla.
+Botón «Escuchar artículo» (o «Escuchar esta página» en inicio, partes y resultados) y atajo `Alt + L`. Reproductor accesible (región con nombre):
+- **Controles**: pausa/reanudar, bloque anterior/siguiente, detener, **barra de posición** (control deslizante con valor textual «Bloque 3 de 24»), y panel de opciones plegable con velocidad, voz (solo si hay varias en español) y saltos de **sección**. Velocidad y voz se recuerdan.
+- **Lectura comprensible**: los códigos CIE se deletrean («E11.9» → «E 11 punto 9»), se expanden siglas (CIE-10-ES, OMS, VIH…), símbolos y rangos, las listas numeradas dicen su número y las filas de tabla se leen como «Columna: valor».
+- **Usabilidad**: resalta y desplaza hasta el bloque que se lee; clic en un párrafo para continuar desde ahí; fragmentos cortos para evitar cortes de voz; en móvil ocupa todo el ancho y el contenido no queda tapado.
+- **Atajos**: `←` `→` bloque, `Mayús + ← →` sección, `Espacio` (en la barra) pausa, `Esc` detiene y devuelve el foco al botón de inicio.
+- **Accesibilidad**: los cambios de estado se anuncian por `aria-live` (no cada bloque, para no solaparse con un lector de pantalla); objetivos de 44 px, foco visible, respeta `prefers-reduced-motion`.
+Los lectores de pantalla (NVDA, JAWS, VoiceOver, TalkBack) no lo necesitan: toda la página está estructurada con encabezados, regiones y tablas con cabeceras.
 
 ## Movimiento
 Transiciones entre páginas (View Transitions), aparición al hacer scroll, contadores, sello y notas con vida, barra de progreso de lectura. Todo se desactiva con `prefers-reduced-motion`.

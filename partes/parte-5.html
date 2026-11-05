@@ -9,10 +9,14 @@
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <meta name="author" content="Sara Lopez Figueredo Sainz">
+  <meta name="copyright" content="© 2026 Sara Lopez Figueredo Sainz · Diginosia.com">
+  <meta property="og:site_name" content="ClinexCode · Diginosia.com">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
   <meta property="og:title" content="Parte 5. Neoplasias · ClinexCode">
   <meta property="og:description" content="Neoplasias: 8 artículos de la base de conocimiento de codificación clínica.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"ClinexCode · Base de conocimiento CIE-10-ES","inLanguage":"es","author":{"@type":"Person","name":"Sara Lopez Figueredo Sainz"},"creator":{"@type":"Person","name":"Sara Lopez Figueredo Sainz"},"publisher":{"@type":"Organization","name":"Diginosia.com","url":"https://diginosia.com"},"copyrightHolder":{"@type":"Organization","name":"Diginosia.com","url":"https://diginosia.com"},"copyrightYear":2026}</script>
   <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="48x48">
   <link rel="apple-touch-icon" href="../assets/icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -111,24 +115,34 @@
   </div>
 
   <section class="reader" data-js="reader" role="region" aria-label="Lector de voz" hidden>
-    <div class="reader__info">
-      <p class="reader__label mono-label"><span class="reader__live" aria-hidden="true"></span>Lector de voz <span class="reader__pos" data-js="reader-pos"></span></p>
-      <p class="reader__now" data-js="reader-now" aria-hidden="true"></p>
-      <div class="reader__bar" aria-hidden="true"><div class="reader__fill" data-js="reader-fill"></div></div>
+    <div class="reader__main">
+      <div class="reader__info">
+        <p class="reader__label mono-label"><span class="reader__live" aria-hidden="true"></span>Lector de voz <span class="reader__pos" data-js="reader-pos"></span></p>
+        <p class="reader__now" data-js="reader-now" aria-hidden="true"></p>
+      </div>
+      <div class="reader__controls" role="group" aria-label="Controles de lectura">
+        <button type="button" class="reader__btn" data-js="reader-prev" aria-label="Bloque anterior"></button>
+        <button type="button" class="reader__btn reader__btn--main" data-js="reader-toggle" aria-label="Pausar lectura"></button>
+        <button type="button" class="reader__btn" data-js="reader-next" aria-label="Bloque siguiente"></button>
+        <button type="button" class="reader__btn" data-js="reader-stop" aria-label="Detener lectura"></button>
+        <button type="button" class="reader__btn" data-js="reader-opts-toggle" aria-label="Opciones del lector" aria-expanded="false" aria-controls="reader-options"></button>
+      </div>
     </div>
-    <div class="reader__controls" role="group" aria-label="Controles de lectura">
-      <button type="button" class="reader__btn" data-js="reader-prev" aria-label="Párrafo anterior"></button>
-      <button type="button" class="reader__btn reader__btn--main" data-js="reader-toggle" aria-label="Pausar"></button>
-      <button type="button" class="reader__btn" data-js="reader-next" aria-label="Párrafo siguiente"></button>
-      <button type="button" class="reader__btn" data-js="reader-stop" aria-label="Detener lectura"></button>
-    </div>
-    <div class="reader__opts">
-      <label class="reader__field">Velocidad
-        <select data-js="reader-rate"><option value="0.8">0,8×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option></select>
-      </label>
-      <label class="reader__field">Voz
-        <select data-js="reader-voice"></select>
-      </label>
+    <input type="range" class="reader__seek" data-js="reader-seek" min="1" max="1" value="1" step="1" aria-label="Posición de lectura">
+    <div class="reader__panel" id="reader-options" data-js="reader-options" hidden>
+      <div class="reader__row">
+        <label class="reader__field">Velocidad
+          <select data-js="reader-rate"><option value="0.8">0,8×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option></select>
+        </label>
+        <label class="reader__field">Voz
+          <select data-js="reader-voice"></select>
+        </label>
+      </div>
+      <div class="reader__row">
+        <button type="button" class="reader__chip" data-js="reader-sec-prev">← Sección anterior</button>
+        <button type="button" class="reader__chip" data-js="reader-sec-next">Sección siguiente →</button>
+      </div>
+      <p class="reader__help"><strong>Atajos:</strong> ← → cambian de bloque · Mayús + ← → de sección · Espacio pausa · Esc detiene · Alt + L escucha esta página. Pulsa en un párrafo mientras se lee para continuar desde ahí. Si usas un lector de pantalla (NVDA, JAWS, VoiceOver, TalkBack) no lo necesitas: la página está estructurada con encabezados y regiones.</p>
     </div>
   </section>
 
@@ -139,7 +153,11 @@
       <p><strong>ClinexCode</strong> · Conocimiento que conecta. Precisión que transforma.</p>
       <p>Los códigos son ejemplos ilustrativos del razonamiento de codificación: confírmalos en la lista tabular de la edición vigente de la CIE-10-ES antes de aplicarlos a un caso real.</p>
     </div>
-    <p class="site-footer__bottom mono-label">Base de conocimiento CIE-10-ES · <a href="#contenido">Volver arriba</a></p>
+    <div class="container site-credits">
+      <p class="site-credits__item"><span class="site-credits__label">Autoría</span><span class="site-credits__name" translate="no">Sara Lopez Figueredo Sainz</span></p>
+      <p class="site-credits__item"><span class="site-credits__label">Patente de</span><a class="site-credits__name" href="https://diginosia.com" rel="noopener" translate="no">Diginosia.com</a></p>
+    </div>
+    <p class="site-footer__bottom mono-label">© 2026 Sara Lopez Figueredo Sainz · Diginosia.com · Todos los derechos reservados · <a href="#contenido">Volver arriba</a></p>
   </footer>
 </body>
 </html>
