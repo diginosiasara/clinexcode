@@ -6,14 +6,31 @@ Sitio estático (sin dependencias, sin build obligatorio, sin peticiones a terce
 
 | Capa | Archivos | Responsabilidad única |
 |---|---|---|
-| Contenido | `tools/fuente.md` (texto del Word) | Fuente de verdad del contenido |
-| Estructura | `tools/template.html` → `index.html` | Semántica, landmarks, ARIA, metadatos |
-| Presentación | `css/tokens.css` · `base.css` · `layout.css` · `components.css` · `utilities.css` · `print.css` | Valores de diseño, elementos, rejilla, componentes BEM, utilidades, impresión (`@layer` fija la cascada) |
-| Comportamiento | `js/main.js` + `js/modules/*.js` · `js/theme-init.js` | Un módulo por función: preferencias, navegación, filtro/búsqueda, lector de voz, avisos |
-| Recursos | `assets/` (logotipo ClinexCode en WebP con respaldo PNG, favicon, icono 192) | Imágenes optimizadas con `width`/`height` para evitar saltos de maquetación |
+| Contenido | `tools/fuente.md` (texto del Word) | Fuente de verdad |
+| Estructura | `tools/template.html` + `tools/build.py` → `index.html`, `buscar.html`, `partes/*.html`, `articulos/*.html`, `data/search-index.js` | Una página por artículo y por parte; semántica, landmarks, ARIA, metadatos |
+| Presentación | `css/tokens` · `base` · `layout` · `components` · `pages` · `motion` · `utilities` · `print` | Capas `@layer` en este orden; valores solo en `tokens.css` |
+| Comportamiento | `js/main.js` + `js/modules/` (se empaquetan en `js/app.js`) (`nav`, `header`, `prefs`, `search`, `reader`, `motion`, `history`, `announcer`, `storage`) | Un módulo por función; cada uno ignora las páginas donde no aplica |
+| Recursos | `assets/` | Logotipo ClinexCode (WebP + PNG), favicon e icono |
 
-Regenerar el HTML tras cambiar contenido o plantilla: `python3 tools/build.py`.
-Probar en local: `python3 -m http.server` y abrir `http://localhost:8000` (los módulos ES requieren HTTP, no `file://`).
+Regenerar todo tras cambiar contenido o plantilla: `python3 tools/build.py`.
+Abrir en local: basta con abrir `index.html` (doble clic); también funciona con cualquier servidor (`python3 -m http.server`).
+`js/app.js` y `data/search-index.js` son archivos **generados** (script clásico + índice como script) para que todo funcione desde `file://`, donde los navegadores bloquean los módulos ES y `fetch`. La fuente de verdad del código está en `js/modules/`; tras editarlo, ejecuta `python3 tools/build.py`.
+
+## Navegación y cabecera
+- **Índice**: cajón que aparece y desaparece (botón «Índice», `Esc`, clic fuera), con foco atrapado, bloqueo de scroll y la parte actual desplegada. Sin JavaScript se muestra como bloque normal.
+- **Cabecera móvil**: una sola fila de 60 px (índice · logo · buscar · ajustes); búsqueda y ajustes se abren como paneles y la barra se oculta al bajar y reaparece al subir.
+- **Menús plegables**: el índice se organiza por partes (`<details>`) con botón «Plegar todo / Desplegar todo», y cada artículo tiene un índice propio «En este artículo» que se pliega, recuerda su estado y marca la sección visible.
+- **Búsqueda e indexación**: `build.py` genera `data/search-index.js` con el contenido dividido por **secciones** (cada una con su encabezado y ancla), más los **códigos CIE** de cada artículo, etiquetas, categoría y parte. El navegador construye el índice invertido al cargarlo.
+  - Relevancia ponderada por campo (título > código > etiqueta > encabezado > texto) con IDF; un resultado por artículo con enlaces directos a las secciones coincidentes y fragmento resaltado.
+  - Coincidencia por prefijo (`E11` → E11.9…), plurales y tildes normalizados, tolerancia a erratas («¿Quisiste decir…?»), frases exactas `"…"`, exclusión `-palabra`, filtros `tag:`, `parte:`, `cat:` y facetas con contadores.
+  - Si ningún artículo contiene todos los términos, se muestran las coincidencias parciales.
+  - Sugerencias mientras se escribe en la cabecera (patrón combobox: flechas, Enter, Esc), búsquedas recientes y atajo `/`.
+
+## Lector de voz
+Reproductor accesible (región con nombre): pausa/reanudar, párrafo anterior/siguiente, detener, velocidad y voz recordadas, barra de progreso y resaltado con desplazamiento automático. Atajos dentro del reproductor: `←` `→` cambian de párrafo, `Esc` detiene; clic en un párrafo mientras se lee para continuar desde ahí. Los cambios de estado se anuncian por una región `aria-live`; no se anuncia cada párrafo para no solaparse con un lector de pantalla.
+
+## Movimiento
+Transiciones entre páginas (View Transitions), aparición al hacer scroll, contadores, sello y notas con vida, barra de progreso de lectura. Todo se desactiva con `prefers-reduced-motion`.
 
 ## Tema visual
 Réplica del tema "Laboratorio CIE-10-ES" (expediente clínico): variables `--paper`, `--expediente`, `--ink`, `--cie`, `--alerta`, `--valida`, `--nota`, sombras de tarjeta, textura de papel cuadriculado y reglado, sello y nota manuscrita, tarjetas con barra superior, chips oscuros para códigos, píldoras, botones oscuro/fantasma/degradado y cabeceras de sección con barra. Tipografías Inter y JetBrains Mono (Google Fonts, con respaldo del sistema). Para autoalojarlas, descargar los `.woff2`, declarar `@font-face` en `css/base.css` y quitar los dos `<link>` de Google y su entrada en la CSP.

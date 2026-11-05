@@ -9,3 +9,9 @@
   a[href^="#"]::after { content: ""; }
   abbr[title]::after { content: " (" attr(title) ")"; font-size: .8em; }
 }
+@media print {
+  .drawer, .reader, .pager, .breadcrumb, .read-progress, .resume, .header-actions, .toolbar, .search { display: none !important; }
+  .reveal { opacity: 1 !important; transform: none !important; }
+  .content { max-width: none; }
+}
+@media print { .toc, .site-nav__tools { display: none !important; } }

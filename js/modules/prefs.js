@@ -14,7 +14,7 @@ export function initPrefs() {
   const down = document.querySelector('[data-js="font-down"]');
   const up = document.querySelector('[data-js="font-up"]');
   if (!toolbar || !themeBtn || !down || !up) return;
-  toolbar.hidden = false;
+  [themeBtn, down, up].forEach((b) => { b.hidden = false; });
 
   const currentTheme = () => root.getAttribute("data-theme") || "auto";
   const currentFs = () => Number(root.getAttribute("data-fs") ?? 1);

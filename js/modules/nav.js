@@ -1,45 +1,54 @@
-/** Navegación: menú móvil, marca de sección activa (scrollspy) y gestión del foco al saltar a un ancla. */
+/** Cajón del índice: aparece y desaparece, con foco atrapado, Esc, clic fuera y bloqueo de scroll. */
+const $ = (s, c = document) => c.querySelector(s);
+
 export function initNav() {
-  const nav = document.querySelector('[data-js="site-nav"]');
-  const toggle = document.querySelector('[data-js="nav-toggle"]');
-  if (!nav) return;
+  const drawer = $('[data-js="drawer"]'), toggle = $('[data-js="nav-toggle"]');
+  const closeBtn = $('[data-js="nav-close"]'), backdrop = $('[data-js="nav-backdrop"]');
+  if (!drawer || !toggle || !closeBtn) return;
+  const root = document.documentElement;
+  [toggle, closeBtn, backdrop].forEach((el) => { if (el) el.hidden = false; });
+  drawer.setAttribute("role", "dialog"); drawer.setAttribute("aria-modal", "true"); drawer.setAttribute("aria-labelledby", "drawer-title");
+  drawer.inert = true;
+  let lastFocus = null;
+  const isOpen = () => drawer.hasAttribute("data-open");
 
-  if (toggle) {
-    toggle.hidden = false;
-    const setOpen = (open) => {
-      nav.toggleAttribute("data-open", open);
-      toggle.setAttribute("aria-expanded", String(open));
-    };
-    toggle.addEventListener("click", () => setOpen(!nav.hasAttribute("data-open")));
-    nav.addEventListener("click", (e) => { if (e.target.closest("a")) setOpen(false); });
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && nav.hasAttribute("data-open")) { setOpen(false); toggle.focus(); }
-    });
-    matchMedia("(min-width: 60.01rem)").addEventListener("change", (e) => e.matches && setOpen(false));
+  function open() {
+    if (isOpen()) return;
+    lastFocus = document.activeElement;
+    drawer.inert = false; drawer.setAttribute("data-open", ""); toggle.setAttribute("aria-expanded", "true"); root.classList.add("is-locked");
+    const current = $('[aria-current="page"]', drawer);
+    (current || closeBtn).focus({ preventScroll: true });
+    current?.scrollIntoView({ block: "center" });
+  }
+  function close(returnFocus = true) {
+    if (!isOpen()) return;
+    drawer.removeAttribute("data-open"); drawer.inert = true; toggle.setAttribute("aria-expanded", "false"); root.classList.remove("is-locked");
+    if (returnFocus) (lastFocus && document.contains(lastFocus) ? lastFocus : toggle).focus();
   }
 
-  // Scrollspy: aria-current="location" en el enlace del artículo visible
-  const links = new Map([...nav.querySelectorAll('a[href^="#"]')].map((a) => [a.getAttribute("href").slice(1), a]));
-  const targets = [...links.keys()].map((id) => document.getElementById(id)).filter((el) => el && el.matches('[data-js="entry"]'));
-  if ("IntersectionObserver" in window) {
-    const io = new IntersectionObserver((entries) => {
-      for (const en of entries) {
-        if (!en.isIntersecting) continue;
-        links.forEach((a) => a.removeAttribute("aria-current"));
-        links.get(en.target.id)?.setAttribute("aria-current", "location");
-      }
-    }, { rootMargin: "-20% 0px -70% 0px" });
-    targets.forEach((t) => io.observe(t));
-  }
+  toggle.addEventListener("click", () => (isOpen() ? close() : open()));
+  closeBtn.addEventListener("click", () => close());
+  backdrop?.addEventListener("click", () => close());
+  drawer.addEventListener("click", (e) => { const a = e.target.closest("a"); if (a) close(false); });
+  document.addEventListener("keydown", (e) => {
+    if (!isOpen()) return;
+    if (e.key === "Escape") { e.preventDefault(); close(); return; }
+    if (e.key !== "Tab") return;
+    const f = [...drawer.querySelectorAll("a[href], button:not([hidden]), summary")].filter((el) => el.offsetParent !== null);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+  $('[data-js="skip-index"]')?.addEventListener("click", (e) => { e.preventDefault(); open(); });
+  addEventListener("pageshow", (e) => { if (e.persisted) close(false); });
 
-  // Foco accesible al cambiar de ancla: el lector de pantalla anuncia el destino
+  // Foco accesible al saltar a un ancla de la misma página (p. ej. #mapa)
   const focusTarget = () => {
     const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-    if (!el || el.closest("[hidden]")) return;
-    const heading = el.matches("h1,h2,h3,h4") ? el : el.querySelector("h1,h2,h3") || el;
-    heading.setAttribute("tabindex", "-1");
-    heading.focus({ preventScroll: true });
+    if (!el) return;
+    const h = el.matches("h1,h2,h3,h4") ? el : el.querySelector("h1,h2,h3") || el;
+    h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true });
   };
   addEventListener("hashchange", focusTarget);
-  if (location.hash) focusTarget();
 }

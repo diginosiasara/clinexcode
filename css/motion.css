@@ -1,0 +1,37 @@
+/* MOVIMIENTO: animaciones sutiles. Todo se desactiva con prefers-reduced-motion. */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+  ::view-transition-old(root), ::view-transition-new(root) { animation-duration: .22s; }
+  .site-header { view-transition-name: site-header; }
+}
+@layer motion {
+  @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  @keyframes stamp-in { 0% { opacity: 0; transform: scale(1.8) rotate(-14deg); } 60% { opacity: 1; transform: scale(.94) rotate(-4deg); } 100% { opacity: 1; transform: rotate(-6deg); } }
+  @keyframes float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -4px; } }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero__main > * { animation: rise .6s cubic-bezier(.2, .8, .2, 1) both; }
+    .hero__main > :nth-child(2) { animation-delay: .06s; }
+    .hero__main > :nth-child(3) { animation-delay: .12s; }
+    .hero__main > :nth-child(4) { animation-delay: .18s; }
+    .hero__main > :nth-child(5) { animation-delay: .24s; }
+    .logo-card { animation: rise .7s .15s cubic-bezier(.2, .8, .2, 1) both; }
+    .logo-card .stamp { animation: stamp-in .5s .8s cubic-bezier(.2, .8, .2, 1) both; }
+    .note { animation: float 5s ease-in-out infinite; }
+    .note--cie { animation-delay: -2.5s; }
+    .entry, .page-head, .breadcrumb, .cards .card { animation: rise .5s cubic-bezier(.2, .8, .2, 1) both; }
+    .cards .card:nth-child(2) { animation-delay: .04s; } .cards .card:nth-child(3) { animation-delay: .08s; }
+    .cards .card:nth-child(4) { animation-delay: .12s; } .cards .card:nth-child(5) { animation-delay: .16s; } .cards .card:nth-child(n+6) { animation-delay: .2s; }
+
+    .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
+    .js .reveal.is-visible { opacity: 1; transform: none; }
+
+    .card:hover, .map__part:hover, .pager__link:hover { transform: translateY(-3px); }
+    .btn:hover { transform: translateY(-1px); }
+    .btn__arrow { display: inline-block; transition: transform .2s; }
+    .btn:hover .btn__arrow { transform: translateX(4px); }
+    a.hashtag:hover { transform: translateY(-1px); }
+    .site-nav__link { transition: background-color .15s, padding-left .15s; }
+    .site-nav__link:hover { padding-left: calc(var(--space-3) + 3px); }
+  }
+}

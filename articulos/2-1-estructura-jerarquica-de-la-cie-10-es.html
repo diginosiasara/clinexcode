@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self'; base-uri 'none'; form-action 'self'; object-src 'none'">
+  <title>2.1 Estructura jerárquica de la CIE-10-ES · ClinexCode</title>
+  <meta name="description" content="La CIE-10-ES organiza las enfermedades de lo general a lo específico: capítulo, bloque, categoría, subcategoría y código final de 3 a 7 caracteres.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="2.1 Estructura jerárquica de la CIE-10-ES · ClinexCode">
+  <meta property="og:description" content="La CIE-10-ES organiza las enfermedades de lo general a lo específico: capítulo, bloque, categoría, subcategoría y código final de 3 a 7 caracteres.">
+  <link rel="icon" href="../assets/favicon.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="../assets/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap">
+  <script src="../js/theme-init.js"></script>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/motion.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+  <script defer src="../js/app.js"></script>
+</head>
+<body data-page="article" data-root="../">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <a class="skip-link" href="#indice" data-js="skip-index">Ir al índice</a>
+  <a class="skip-link" href="#buscar">Saltar a la búsqueda</a>
+
+  <header class="site-header" data-js="site-header">
+    <div class="site-header__strip">
+      <div class="container site-header__strip-inner mono-label">
+        <p>
+          <span class="status-dot" aria-hidden="true"></span>Expediente: <strong>Base de conocimiento</strong>
+          <span class="strip__sep" aria-hidden="true">|</span>Materia: <strong>Codificación clínica</strong>
+          <span class="strip__sep" aria-hidden="true"></span><span class="pill pill--gradient">CIE-10-ES</span>
+        </p>
+        <p class="site-header__stats"><span class="pill pill--ok"><span class="pill__dot" aria-hidden="true"></span>35 artículos · 7 partes</span></p>
+      </div>
+    </div>
+    <div class="container site-header__bar">
+      <button type="button" id="nav-toggle" class="btn btn--icon nav-toggle" data-js="nav-toggle" aria-controls="indice" aria-expanded="false" hidden>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="nav-toggle__text">Índice</span>
+      </button>
+      <a class="brand" href="../index.html" aria-label="ClinexCode: ir al inicio">
+        <picture class="brand__plate">
+          <source srcset="../assets/logo-horizontal.webp" type="image/webp">
+          <img class="brand__logo" src="../assets/logo-horizontal.png" width="420" height="82" alt="ClinexCode" decoding="async">
+        </picture>
+      </a>
+      <div class="header-actions">
+        <button type="button" class="btn btn--icon" data-js="search-toggle" aria-controls="search-panel" aria-expanded="false" aria-label="Buscar" hidden>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <button type="button" class="btn btn--icon" data-js="prefs-toggle" aria-controls="toolbar" aria-expanded="false" aria-label="Ajustes de lectura" hidden>
+          <span class="icon-text" aria-hidden="true">Aa</span>
+        </button>
+      </div>
+      <form id="search-panel" class="search" role="search" action="../buscar.html" method="get" aria-label="Buscar en la base de conocimiento" data-js="search-panel">
+        <svg class="icon search__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>
+        <label class="sr-only" for="buscar">Buscar artículos, códigos o términos</label>
+        <input id="buscar" class="search__input" type="search" name="q" placeholder="Buscar: sepsis, E11, lateralidad…" autocomplete="off" spellcheck="false" enterkeyhint="search" data-js="search-input">
+        <span class="search__hint" aria-hidden="true">PULSA /</span>
+      </form>
+      <div id="toolbar" class="toolbar" role="group" aria-label="Preferencias de lectura" data-js="toolbar">
+        <button type="button" class="btn btn--icon" data-js="font-down" aria-label="Reducir tamaño del texto" hidden><span class="icon-text" aria-hidden="true">A−</span></button>
+        <button type="button" class="btn btn--icon" data-js="font-up" aria-label="Aumentar tamaño del texto" hidden><span class="icon-text" aria-hidden="true">A+</span></button>
+        <button type="button" class="btn btn--icon" data-js="theme-toggle" aria-label="Cambiar tema de color" hidden><span class="icon-text" aria-hidden="true" data-js="theme-icon">◐</span></button>
+      </div>
+    </div>
+    <div class="read-progress" aria-hidden="true" data-js="progress"></div>
+  </header>
+
+  <div class="layout">
+    <div id="indice" class="drawer" data-js="drawer">
+      <div class="drawer__panel">
+        <div class="drawer__head">
+          <h2 class="drawer__title" id="drawer-title">Índice</h2>
+          <button type="button" class="btn btn--icon" data-js="nav-close" aria-label="Cerrar índice" hidden>
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18"/></svg>
+          </button>
+        </div>
+        <nav class="site-nav" aria-labelledby="drawer-title" data-js="site-nav">
+<ol class="site-nav__parts">
+<li><a class="site-nav__link" href="../index.html">Inicio</a></li>
+<li><a class="site-nav__link" href="../buscar.html">Buscar y etiquetas</a></li>
+<li class="site-nav__part"><details><summary class="site-nav__summary">1. Fundamentos de la codificación sanitaria</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-1.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/1-1-que-es-la-codificacion-sanitaria.html"><span class="site-nav__num">1.1</span> Qué es la codificación sanitaria</a></li><li><a class="site-nav__link" href="../articulos/1-2-utilidad-y-aplicaciones.html"><span class="site-nav__num">1.2</span> Utilidad y aplicaciones</a></li><li><a class="site-nav__link" href="../articulos/1-3-historia-de-las-clasificaciones-de-enfermedades.html"><span class="site-nav__num">1.3</span> Historia de las clasificaciones de enfermedades</a></li><li><a class="site-nav__link" href="../articulos/1-4-organismos-y-marco-normativo.html"><span class="site-nav__num">1.4</span> Organismos y marco normativo</a></li></ol></details></li>
+<li class="site-nav__part"><details open><summary class="site-nav__summary">2. La CIE-10-ES: estructura y reglas generales</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-2.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/2-1-estructura-jerarquica-de-la-cie-10-es.html" aria-current="page"><span class="site-nav__num">2.1</span> Estructura jerárquica de la CIE-10-ES</a></li><li><a class="site-nav__link" href="../articulos/2-2-indice-alfabetico-de-enfermedades.html"><span class="site-nav__num">2.2</span> Índice alfabético de enfermedades</a></li><li><a class="site-nav__link" href="../articulos/2-3-lista-tabular-y-procedimiento-de-codificacion.html"><span class="site-nav__num">2.3</span> Lista tabular y procedimiento de codificación</a></li><li><a class="site-nav__link" href="../articulos/2-4-convenciones-notas-e-instrucciones.html"><span class="site-nav__num">2.4</span> Convenciones, notas e instrucciones</a></li><li><a class="site-nav__link" href="../articulos/2-5-principios-basicos-y-diagnostico-principal.html"><span class="site-nav__num">2.5</span> Principios básicos y diagnóstico principal</a></li><li><a class="site-nav__link" href="../articulos/2-6-localizacion-anatomica-y-lateralidad.html"><span class="site-nav__num">2.6</span> Localización anatómica y lateralidad</a></li><li><a class="site-nav__link" href="../articulos/2-7-eciemaps-herramienta-y-metodo-de-busqueda.html"><span class="site-nav__num">2.7</span> eCIEmaps: herramienta y método de búsqueda</a></li></ol></details></li>
+<li class="site-nav__part"><details><summary class="site-nav__summary">3. Calidad de los datos, ética y protección de datos</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-3.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/3-1-calidad-de-los-datos.html"><span class="site-nav__num">3.1</span> Calidad de los datos</a></li><li><a class="site-nav__link" href="../articulos/3-2-etica-y-proteccion-de-datos.html"><span class="site-nav__num">3.2</span> Ética y protección de datos</a></li></ol></details></li>
+<li class="site-nav__part"><details><summary class="site-nav__summary">4. Enfermedades infecciosas y parasitarias</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-4.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/4-1-infeccion-y-triangulo-epidemiologico.html"><span class="site-nav__num">4.1</span> Infección y triángulo epidemiológico</a></li><li><a class="site-nav__link" href="../articulos/4-2-normas-generales-del-capitulo-de-infecciosas.html"><span class="site-nav__num">4.2</span> Normas generales del capítulo de infecciosas</a></li><li><a class="site-nav__link" href="../articulos/4-3-tuberculosis.html"><span class="site-nav__num">4.3</span> Tuberculosis</a></li><li><a class="site-nav__link" href="../articulos/4-4-bacteriemia-sepsis-septicemia-y-sirs.html"><span class="site-nav__num">4.4</span> Bacteriemia, sepsis, septicemia y SIRS</a></li><li><a class="site-nav__link" href="../articulos/4-5-vih-y-sida.html"><span class="site-nav__num">4.5</span> VIH y SIDA</a></li><li><a class="site-nav__link" href="../articulos/4-6-casos-de-ejemplo-enfermedades-infecciosas.html"><span class="site-nav__num">4.6</span> Casos de ejemplo: enfermedades infecciosas</a></li></ol></details></li>
+<li class="site-nav__part"><details><summary class="site-nav__summary">5. Neoplasias</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-5.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/5-1-fundamentos-y-definiciones.html"><span class="site-nav__num">5.1</span> Fundamentos y definiciones</a></li><li><a class="site-nav__link" href="../articulos/5-2-clasificacion-por-comportamiento.html"><span class="site-nav__num">5.2</span> Clasificación por comportamiento</a></li><li><a class="site-nav__link" href="../articulos/5-3-reglas-de-codificacion-de-neoplasias.html"><span class="site-nav__num">5.3</span> Reglas de codificación de neoplasias</a></li><li><a class="site-nav__link" href="../articulos/5-4-tejido-linfoide-y-hematopoyetico.html"><span class="site-nav__num">5.4</span> Tejido linfoide y hematopoyético</a></li><li><a class="site-nav__link" href="../articulos/5-5-carcinomas-y-neoplasias-de-huesos-y-cartilago.html"><span class="site-nav__num">5.5</span> Carcinomas y neoplasias de huesos y cartílago</a></li><li><a class="site-nav__link" href="../articulos/5-6-metodo-de-codificacion-paso-a-paso.html"><span class="site-nav__num">5.6</span> Método de codificación paso a paso</a></li><li><a class="site-nav__link" href="../articulos/5-7-diagnostico-principal-complicaciones-y-tratamientos.html"><span class="site-nav__num">5.7</span> Diagnóstico principal, complicaciones y tratamientos</a></li><li><a class="site-nav__link" href="../articulos/5-8-casos-de-ejemplo-neoplasias.html"><span class="site-nav__num">5.8</span> Casos de ejemplo: neoplasias</a></li></ol></details></li>
+<li class="site-nav__part"><details><summary class="site-nav__summary">6. Enfermedades sistémicas, trastornos mentales y otras patologías</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-6.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/6-1-diabetes-mellitus.html"><span class="site-nav__num">6.1</span> Diabetes mellitus</a></li><li><a class="site-nav__link" href="../articulos/6-2-enfermedades-de-la-tiroides.html"><span class="site-nav__num">6.2</span> Enfermedades de la tiroides</a></li><li><a class="site-nav__link" href="../articulos/6-3-trastornos-mentales.html"><span class="site-nav__num">6.3</span> Trastornos mentales</a></li><li><a class="site-nav__link" href="../articulos/6-4-aparato-genitourinario.html"><span class="site-nav__num">6.4</span> Aparato genitourinario</a></li><li><a class="site-nav__link" href="../articulos/6-5-casos-de-ejemplo-patologias-sistemicas.html"><span class="site-nav__num">6.5</span> Casos de ejemplo: patologías sistémicas</a></li></ol></details></li>
+<li class="site-nav__part"><details><summary class="site-nav__summary">7. Anexos</summary><ol class="site-nav__list"><li><a class="site-nav__link" href="../partes/parte-7.html">Vista general de la parte</a></li><li><a class="site-nav__link" href="../articulos/7-1-glosario.html"><span class="site-nav__num">7.1</span> Glosario</a></li><li><a class="site-nav__link" href="../articulos/7-2-preguntas-frecuentes.html"><span class="site-nav__num">7.2</span> Preguntas frecuentes</a></li><li><a class="site-nav__link" href="../articulos/7-3-codigos-de-referencia-rapida.html"><span class="site-nav__num">7.3</span> Códigos de referencia rápida</a></li></ol></details></li>
+</ol>
+        </nav>
+      </div>
+      <div class="drawer__backdrop" data-js="nav-backdrop" hidden></div>
+    </div>
+
+    <main id="contenido" class="content" tabindex="-1">
+<nav class="breadcrumb" aria-label="Ruta de navegación"><ol><li><a href="../index.html">Inicio</a></li><li><a href="../partes/parte-2.html">Parte 2: La CIE-10-ES: estructura y reglas generales</a></li><li aria-current="page">2.1 Estructura jerárquica de la CIE-10-ES</li></ol></nav>
+<details class="toc" data-js="toc"><summary class="toc__summary">En este artículo <span class="toc__count">4 secciones</span></summary><nav aria-label="En este artículo"><ol class="toc__list"><li><a class="toc__link" href="#sec-codigos-alfanumericos">Códigos alfanuméricos</a></li><li><a class="toc__link" href="#sec-marcador-de-posicion-x">Marcador de posición «X»</a></li><li><a class="toc__link" href="#sec-capitulos">Capítulos</a></li><li><a class="toc__link" href="#sec-ventajas-de-la-estructura-jerarquica">Ventajas de la estructura jerárquica</a></li></ol></nav></details>
+<article id="articulo" class="entry" data-js="entry" aria-labelledby="articulo-titulo">
+<header class="entry__header">
+<p class="entry__num"><span class="sr-only">Artículo </span>2.1</p>
+<h1 id="articulo-titulo" class="entry__title" data-js="entry-title" data-num="2.1">Estructura jerárquica de la CIE-10-ES</h1>
+<dl class="entry__meta"><div><dt>Categoría</dt><dd>CIE-10-ES</dd></div><div><dt>Etiquetas</dt><dd>jerarquía, capítulos, categorías, especificidad</dd></div></dl>
+<ul class="hashtags" aria-label="Hashtags del artículo" data-reader-skip><li><a class="hashtag" href="../buscar.html?tag=cie10es" aria-label="Buscar artículos con la etiqueta CIE10ES">#CIE10ES</a></li><li><a class="hashtag" href="../buscar.html?tag=jerarquia" aria-label="Buscar artículos con la etiqueta Jerarquia">#Jerarquia</a></li><li><a class="hashtag" href="../buscar.html?tag=capitulos" aria-label="Buscar artículos con la etiqueta Capitulos">#Capitulos</a></li><li><a class="hashtag" href="../buscar.html?tag=categorias" aria-label="Buscar artículos con la etiqueta Categorias">#Categorias</a></li><li><a class="hashtag" href="../buscar.html?tag=especificidad" aria-label="Buscar artículos con la etiqueta Especificidad">#Especificidad</a></li></ul>
+<div class="entry__tools" data-js="entry-tools" data-reader-skip></div>
+</header>
+<p class="entry__summary"><strong class="entry__summary-label">Resumen.</strong> La <abbr title="Clasificación Internacional de Enfermedades, 10.ª revisión, Modificación Clínica (España)">CIE-10-ES</abbr> organiza las enfermedades de lo general a lo específico: capítulo, bloque, categoría, subcategoría y código final de 3 a 7 caracteres.</p>
+<div class="entry__body prose">
+<div class="table-wrap" role="region" aria-labelledby="cap-estructura-jerarquica-de-la-cie-10-es-1" tabindex="0"><table class="data-table"><caption id="cap-estructura-jerarquica-de-la-cie-10-es-1" class="sr-only">Estructura jerárquica de la CIE-10-ES (tabla 1)</caption><thead><tr><th scope="col">Nivel</th><th scope="col">Descripción</th><th scope="col">Ejemplo</th></tr></thead><tbody><tr><th scope="row"><strong>Capítulo</strong></th><td>Grupo amplio de enfermedades o condiciones de salud. Saber a qué capítulo corresponde cada tipo de enfermedad evita buscar en toda la clasificación.</td><td>Cap. 1: enfermedades infecciosas y parasitarias (<code class="cie-code">A00</code>–<code class="cie-code">B99</code>)</td></tr><tr><th scope="row"><strong>Bloque o sección</strong></th><td>Reúne patologías con características comunes dentro de un capítulo.</td><td>Dentro del capítulo respiratorio: bloque de neumonía, bloque de <abbr title="Enfermedad pulmonar obstructiva crónica">EPOC</abbr></td></tr><tr><th scope="row"><strong>Categoría</strong></th><td><strong>Una letra seguida de dos números</strong> (3 caracteres). Identifica grandes grupos diagnósticos.</td><td><code class="cie-code">J45</code> (asma); <code class="cie-code">A04</code> (infecciones intestinales bacterianas)</td></tr><tr><th scope="row"><strong>Subcategoría</strong></th><td>Se añade un <strong>cuarto carácter</strong> que aporta precisión sobre la variante clínica, la localización anatómica o la gravedad.</td><td><code class="cie-code">J45.9</code> (asma no especificado)</td></tr><tr><th scope="row"><strong>Quinto carácter (opcional)</strong></th><td>Captura detalles adicionales: tipo clínico, complicación o manifestación específica. Útil en enfermedades crónicas o complejas.</td><td>Enfermedad renal crónica: permite indicar la fase (1, 2, 3, 4…)</td></tr><tr><th scope="row"><strong>Código final</strong></th><td>De <strong>3 a 7 caracteres</strong>. No siempre se desarrolla hasta el último nivel.</td><td>—</td></tr></tbody></table></div>
+<h2 id="sec-codigos-alfanumericos">Códigos alfanuméricos</h2>
+<p>La letra inicial identifica el capítulo o grupo al que pertenece el diagnóstico; los números posteriores concretan progresivamente la categoría y la subcategoría.</p>
+<h2 id="sec-marcador-de-posicion-x">Marcador de posición «X»</h2>
+<p>Cuando un código necesita un séptimo carácter y faltan posiciones intermedias, esas posiciones se rellenan con una <strong>«X»</strong>. Un código de siete caracteres al que le falta el séptimo se considera <strong>inválido</strong>.</p>
+<h2 id="sec-capitulos">Capítulos</h2>
+<p>La CIE-10-ES tiene <strong>22 capítulos</strong>; el último recoge los «Códigos para propósitos especiales» (<code class="cie-code">U00</code>–<code class="cie-code">U85</code>). Algunas descripciones hablan de 21 capítulos porque no cuentan este último. Los capítulos que más se usan en esta base de conocimiento son:</p>
+<div class="table-wrap" role="region" aria-labelledby="cap-estructura-jerarquica-de-la-cie-10-es-2" tabindex="0"><table class="data-table"><caption id="cap-estructura-jerarquica-de-la-cie-10-es-2" class="sr-only">Estructura jerárquica de la CIE-10-ES: Capítulos</caption><thead><tr><th scope="col">Capítulo</th><th scope="col">Contenido</th><th scope="col">Rango</th></tr></thead><tbody><tr><th scope="row"><strong>1</strong></th><td>Enfermedades infecciosas y parasitarias</td><td><code class="cie-code">A00</code>–<code class="cie-code">B99</code></td></tr><tr><th scope="row"><strong>2</strong></th><td>Neoplasias</td><td><code class="cie-code">C00</code>–<code class="cie-code">D49</code></td></tr><tr><th scope="row"><strong>4</strong></th><td>Enfermedades endocrinas, nutricionales y metabólicas</td><td><code class="cie-code">E00</code>–<code class="cie-code">E89</code></td></tr><tr><th scope="row"><strong>5</strong></th><td>Trastornos mentales y del comportamiento</td><td><code class="cie-code">F01</code>–<code class="cie-code">F99</code></td></tr><tr><th scope="row"><strong>6</strong></th><td>Enfermedades del sistema nervioso</td><td><code class="cie-code">G00</code>–<code class="cie-code">G99</code></td></tr><tr><th scope="row"><strong>14</strong></th><td>Enfermedades del aparato genitourinario</td><td><code class="cie-code">N00</code>–<code class="cie-code">N99</code></td></tr><tr><th scope="row"><strong>18</strong></th><td>Síntomas, signos y hallazgos anormales</td><td><code class="cie-code">R00</code>–<code class="cie-code">R99</code></td></tr><tr><th scope="row"><strong>19</strong></th><td>Lesiones, envenenamientos y otras causas externas (códigos T)</td><td><code class="cie-code">S00</code>–<code class="cie-code">T88</code></td></tr><tr><th scope="row"><strong>21</strong></th><td>Factores que influyen en el estado de salud (códigos Z)</td><td><code class="cie-code">Z00</code>–<code class="cie-code">Z99</code></td></tr></tbody></table></div>
+<h2 id="sec-ventajas-de-la-estructura-jerarquica">Ventajas de la estructura jerárquica</h2>
+<p>Mayor precisión, mejor gestión clínica y administrativa, comparación de datos entre instituciones y países, y menor pérdida de información relevante, lo que redunda en seguridad del paciente y mejor atención.</p>
+<div class="callout callout--key" role="note"><p><strong class="callout__label">Idea clave.</strong> La estructura permite pasar de un concepto general a un diagnóstico específico. Se debe llegar al máximo nivel de detalle que permita la documentación, sin suponer información que no consta.</p></div>
+</div>
+<footer class="entry__footer" data-reader-skip><h2 class="entry__related-title">Véase también</h2><ul class="related-list"><li><a href="../articulos/2-2-indice-alfabetico-de-enfermedades.html">2.2 Índice alfabético de enfermedades</a></li><li><a href="../articulos/2-3-lista-tabular-y-procedimiento-de-codificacion.html">2.3 Lista tabular y procedimiento de codificación</a></li><li><a href="../articulos/2-7-eciemaps-herramienta-y-metodo-de-busqueda.html">2.7 eCIEmaps: herramienta y método de búsqueda</a></li></ul></footer>
+</article>
+<nav class="pager" aria-label="Navegación entre artículos"><a class="pager__link pager__link--prev" href="../articulos/1-4-organismos-y-marco-normativo.html" rel="prev"><span class="pager__label">← Anterior</span><span class="pager__title"><span class="pager__num">1.4</span> Organismos y marco normativo</span></a><a class="pager__link pager__link--next" href="../articulos/2-2-indice-alfabetico-de-enfermedades.html" rel="next"><span class="pager__label">Siguiente →</span><span class="pager__title"><span class="pager__num">2.2</span> Índice alfabético de enfermedades</span></a></nav>
+    </main>
+  </div>
+
+  <section class="reader" data-js="reader" role="region" aria-label="Lector de voz" hidden>
+    <div class="reader__info">
+      <p class="reader__label mono-label"><span class="reader__live" aria-hidden="true"></span>Lector de voz <span class="reader__pos" data-js="reader-pos"></span></p>
+      <p class="reader__now" data-js="reader-now" aria-hidden="true"></p>
+      <div class="reader__bar" aria-hidden="true"><div class="reader__fill" data-js="reader-fill"></div></div>
+    </div>
+    <div class="reader__controls" role="group" aria-label="Controles de lectura">
+      <button type="button" class="reader__btn" data-js="reader-prev" aria-label="Párrafo anterior"></button>
+      <button type="button" class="reader__btn reader__btn--main" data-js="reader-toggle" aria-label="Pausar"></button>
+      <button type="button" class="reader__btn" data-js="reader-next" aria-label="Párrafo siguiente"></button>
+      <button type="button" class="reader__btn" data-js="reader-stop" aria-label="Detener lectura"></button>
+    </div>
+    <div class="reader__opts">
+      <label class="reader__field">Velocidad
+        <select data-js="reader-rate"><option value="0.8">0,8×</option><option value="1" selected>1×</option><option value="1.25">1,25×</option><option value="1.5">1,5×</option><option value="1.75">1,75×</option></select>
+      </label>
+      <label class="reader__field">Voz
+        <select data-js="reader-voice"></select>
+      </label>
+    </div>
+  </section>
+
+  <div class="sr-only" role="status" aria-live="polite" aria-atomic="true" data-js="announcer"></div>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner mono-label">
+      <p><strong>ClinexCode</strong> · Conocimiento que conecta. Precisión que transforma.</p>
+      <p>Los códigos son ejemplos ilustrativos del razonamiento de codificación: confírmalos en la lista tabular de la edición vigente de la CIE-10-ES antes de aplicarlos a un caso real.</p>
+    </div>
+    <p class="site-footer__bottom mono-label">Base de conocimiento CIE-10-ES · <a href="#contenido">Volver arriba</a></p>
+  </footer>
+</body>
+</html>
